@@ -1,0 +1,22 @@
+[
+    {
+        "name": "MIT Lincoln Lab",
+        "address": {
+            "street": "244 Wood Street",
+            "city": "Lexington",
+            "state": "MA",
+            "zip": "02421"
+        },
+        "location" : [
+            42.45855,
+            -71.2635
+        ],
+        "description": "The MIT Lincoln Laboratory, located in Lexington, Massachusetts, is a United States Department of Defense federally funded research and development center chartered to apply advanced technology to problems of national security. Research and development activities focus on long-term technology development as well as rapid system prototyping and demonstration. Its core competencies are in sensors, integrated sensing, signal processing for information extraction, decision-making support, and communications. These efforts are aligned within ten mission areas. The laboratory also maintains several field sites around the world.",
+        "links": [
+            {
+                "title": "MIT Lincoln Lab",
+                "href": "https://www.ll.mit.edu/"
+            }
+        ]
+    }
+]

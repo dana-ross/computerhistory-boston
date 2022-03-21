@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Infocom",
+        "address": {
+            "street": "125 Cambridge Park Drive",
+            "city": "Cambridge",
+            "state": "MA",
+            "zip": "02140"
+        },
+        "location": [
+            42.39962,
+            -71.1536
+        ],
+        "description": "Infocom was an American software company based in Cambridge, Massachusetts, that produced numerous works of interactive fiction. They also produced a business application, a relational database called Cornerstone.",
+        "links": []
+    },
+    {
+        "name": "Psygnosis, Ltd.",
+        "address": {
+            "street": "675 Massachusetts Ave.",
+            "city": "Cambridge",
+            "state": "MA",
+            "zip": "02139"
+        },
+        "location": [
+            42.3657,
+            -71.10422
+        ],
+        "description": "Psygnosis was a British video game developer and publisher. The company was founded in Liverpool in 1984 from the ashes of Imagine, and initially developed games (mostly in the action genre) for Amiga and Atari ST. After their initial success with their early games, such as Brataccas, Psygnosis' biggest hit came with Lemmings, released in 1991 and spawned many sequels. This success led to the acquisition of the company by Sony Corp. on May 23, 1993.",
+        "links": []
+    },
+    {
+        "name": "Psygnosis, Ltd.",
+        "address": {
+            "street": "29 St. Mary's Court",
+            "city": "Brookline",
+            "state": "MA",
+            "zip": "02146"
+        },
+        "location": [
+            42.34643,
+            -71.10828
+        ],
+        "description": "Psygnosis was a British video game developer and publisher. The company was founded in Liverpool in 1984 from the ashes of Imagine, and initially developed games (mostly in the action genre) for Amiga and Atari ST. After their initial success with their early games, such as Brataccas, Psygnosis' biggest hit came with Lemmings, released in 1991 and spawned many sequels. This success led to the acquisition of the company by Sony Corp. on May 23, 1993.",
+        "links": []
+    },
+    {
+        "name": "Apollo Computer, Inc.",
+        "address": {
+            "street": "19 Alpha Road",
+            "city": "Chelmsford",
+            "state": "MA",
+            "zip": "01824"
+        },
+        "location" : [
+            42.59276,
+            -71.32724
+        ],
+        "description": "Apollo Computer Inc., founded in 1980 in Chelmsford, Massachusetts, by William Poduska (a founder of Prime Computer) and others, developed and produced Apollo/Domain workstations in the 1980s. Along with Symbolics and Sun Microsystems, Apollo was one of the first vendors of graphical workstations in the 1980s. Like computer companies at the time and unlike manufacturers of IBM PC compatibles, Apollo produced much of its own hardware and software.",
+        "links": [
+            {
+                "title": "The Apollo Archive",
+                "href": "https://jim.rees.org/apollo-archive/"
+            }
+        ]
+    },
+    {
+        "name": "Digital Equipment Corporation",
+        "address": {
+            "street": "40 Old Bolton Rd.",
+            "city": "Stow",
+            "state": "MA",
+            "zip": "01775"
+        },
+        "location": [
+            42.43479,
+            -71.54192
+        ],
+        "description": "Digital Equipment Corporation (DEC /dɛk/), using the trademark Digital, was a major American company in the computer industry from the 1960s to the 1990s. The company was co-founded by Ken Olsen and Harlan Anderson in 1957. Olsen was president until forced to resign in 1992, after the company had gone into precipitous decline.",
+        "links": [
+            {
+                "title": "DECConnection",
+                "href": "http://www.decconnection.org/"
+            }
+        ]
+    },
+    {
+        "name": "Data General",
+        "address": {
+            "street": "4400 Computer Drive",
+            "city": "Westboro",
+            "state": "MA",
+            "zip": "01580"
+        },
+        "location": [
+            42.2889,
+            -71.57374
+        ],
+        "description": "Data General was one of the first minicomputer firms of the late 1960s. Three of the four founders were former employees of Digital Equipment Corporation (DEC).",
+        "links": [
+            {
+                "title": "The Fair Bastards",
+                "href": "http://www.teamfoster.com/billteamfostercom/"
+            }
+        ]
+    }
+]

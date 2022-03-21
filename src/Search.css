@@ -1,0 +1,52 @@
+#search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20rem;
+    z-index: 2000;
+    background-color: #fff;
+ 
+}
+
+#search > * {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+#search input {
+    width: 80%;
+}
+
+#search-results {
+    margin: 0 0 0 1rem;
+    padding: 0;
+}
+
+#search-results ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#search-results ul li {
+    display: block;
+    border-top: 1px solid #aaa;
+    margin: .5rem 0;
+    cursor: pointer;
+}
+
+#search-results ul li:first-child {
+    margin-top: 0;
+    border-top: none;
+}
+
+#search-results h2 {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+#search-results p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}

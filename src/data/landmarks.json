@@ -1,0 +1,31 @@
+[
+    {
+        "type": "Landmark",
+        "name": "The Computer Museum",
+        "address": {
+            "street": "300 Congress Street",
+            "city": "Boston",
+            "state": "MA",
+            "zip": "02210"
+        },
+        "location": [
+            42.351845,
+            -71.04989
+        ],
+        "description": "The Computer Museum was a Boston, Massachusetts, museum that opened in 1979 and operated in three locations until 1999. It was once referred to as TCM and is sometimes called the Boston Computer Museum. When the Museum closed in 2000, much of its collection was sent to the Computer History Museum in California.",
+        "links": [
+            {
+                "title": "The Computer Museum",
+                "href": "http://tcm.computerhistory.org/"
+            },
+            {
+                "title": "Opening press kit",
+                "href": "http://tcm.computerhistory.org/OpeningPressKit.pdf"
+            },
+            {
+                "title": "The Computer History Museum (Mountain View, CA)",
+                "href": "https://computerhistory.org/"
+            }
+        ]
+    }
+]

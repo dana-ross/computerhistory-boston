@@ -1,0 +1,25 @@
+@import '~leaflet/dist/leaflet.css';
+
+.leaflet-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.leaflet-popup-content p {
+    margin: 0 0 1rem 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+.leaflet-popup-content h1, .leaflet-popup-content h2, .leaflet-popup-content h3, .leaflet-popup-content h4, .leaflet-popup-content   h5 {
+    font-size: .75rem;
+    font-weight: bold;
+    line-height: 1.4;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.company-links ul {
+    padding-left: 1rem;
+}

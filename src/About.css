@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Data Control';
+    src: url(./fonts/data-latin.ttf) format('truetype');
+}
+
+#about {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background-color: #fff;
+}
+
+#about > * {
+    margin: 0 1rem 1rem 1rem;
+}
+
+#about h1, #about p {
+    font-family: 'Data Control', sans-serif;
+}
+.leaflet-control-container {
+    position: relative;
+    top: 6rem;
+}
