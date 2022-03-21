@@ -1,5 +1,4 @@
 import { MapContainer, TileLayer } from "react-leaflet";
-import { LatLngExpression } from "leaflet";
 import CompanyMarker from "./CompanyMarker";
 import LandmarkMarker from "./LandmarkMarker";
 import InstitutionMarker from "./InstitutionMarker";
@@ -7,30 +6,27 @@ import "./Map.css";
 import Company from "./Company";
 import Landmark from "./Landmark";
 import Institution from "./Institution";
-import MapState from "./MapState";
+import Config from "./Config";
 
 interface MapProps {
   zoom: number;
   companydata: Array<Company>;
   landmarkdata: Array<Landmark>;
   institutiondata: Array<Institution>;
-  mapState: MapState;
 }
+
+const config = new Config();
 
 function Map({
   zoom,
   companydata,
   landmarkdata,
   institutiondata,
-  mapState,
 }: MapProps) {
   return (
     <MapContainer
-      center={mapState.center}
+      center={config.center}
       zoom={zoom}
-      whenCreated={(map) => {
-        mapState.setMap(map);
-      }}
     >
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
       {companydata.map((company: Company) => {
@@ -38,7 +34,6 @@ function Map({
           <CompanyMarker
             company={company}
             key={company.key()}
-            mapState={mapState}
           />
         );
       })}
@@ -47,7 +42,6 @@ function Map({
           <LandmarkMarker
             landmark={landmark}
             key={landmark.key()}
-            mapState={mapState}
           />
         );
       })}
@@ -56,7 +50,6 @@ function Map({
           <InstitutionMarker
             institution={institution}
             key={institution.key()}
-            mapState={mapState}
           />
         );
       })}

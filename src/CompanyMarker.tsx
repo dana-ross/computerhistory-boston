@@ -1,22 +1,15 @@
 import { Marker, Popup } from "react-leaflet";
 import "./Map.css";
 import Company from "./Company";
-import MapState from "./MapState";
-import { Marker as LeafletMarker} from "leaflet";
-import { useRef } from "react";
 
 interface CompanyMarkerProps {
   company: Company;
-  mapState: MapState;
 }
 
-export default function CompanyMarker({ company, mapState }: CompanyMarkerProps) {
-
-  const ref = useRef<LeafletMarker>(null);
-  mapState.addMarker({'location': company.location, 'marker': ref});
+export default function CompanyMarker({ company }: CompanyMarkerProps) {
 
   return (
-    <Marker position={company.location} ref={ref}>
+    <Marker position={company.location}>
       <Popup>
         <h2>{company.name}</h2>
         <p>{company.description}</p>

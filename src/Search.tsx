@@ -4,7 +4,6 @@ import Config from "./Config";
 import Company from "./Company";
 import Fuse from "fuse.js";
 import Landmark from "./Landmark";
-import MapState from "./MapState";
 
 type FuseResult<T> = Fuse.FuseResult<T>;
 
@@ -18,11 +17,7 @@ const fuse = new Fuse(allLandmarks, {
   keys: ["name", "address.city", "address.state", "address.zip"],
 });
 
-interface SearchProps {
-  mapState: MapState;
-}
-
-export default function Search({ mapState }: SearchProps) {
+export default function Search() {
   const [query, setQuery] = useState<string>("");
   const [results, setResults] = useState<FuseResult<Company>[]>([]);
 
@@ -45,7 +40,7 @@ export default function Search({ mapState }: SearchProps) {
                 <li
                   key={company.item.key()}
                   onClick={(e) => {
-                    mapState.setCenter(company.item.location);
+                    //flyto
                     e.stopPropagation();
                     e.preventDefault();
                   }}
