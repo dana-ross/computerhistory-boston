@@ -4,6 +4,7 @@ import Config from "./Config";
 import Company from "./Company";
 import Fuse from "fuse.js";
 import Landmark from "./Landmark";
+import { getMap, getMarkers } from "./MapContext";
 
 type FuseResult<T> = Fuse.FuseResult<T>;
 
@@ -40,7 +41,15 @@ export default function Search() {
                 <li
                   key={company.item.key()}
                   onClick={(e) => {
-                    //flyto
+                    getMap()?.flyTo(company.item.location);
+                      getMarkers().find((candidate) => {
+                        return (
+                          candidate.current &&
+                          candidate.current
+                            .getLatLng()
+                            .equals(company.item.location)
+                        );
+                      })?.current?.openPopup()
                     e.stopPropagation();
                     e.preventDefault();
                   }}

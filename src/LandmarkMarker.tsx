@@ -1,6 +1,9 @@
 import { Marker, Popup } from "react-leaflet";
 import "./Map.css";
 import Landmark from "./Landmark";
+import { createRef } from "react";
+import { addMarker} from "./MapContext";
+import Leaflet from "leaflet";
 
 interface LandmarkMarkerProps {
   landmark: Landmark;
@@ -8,8 +11,11 @@ interface LandmarkMarkerProps {
 
 export default function LandmarkMarker({ landmark }: LandmarkMarkerProps) {
 
+  const ref = createRef<Leaflet.Marker>();
+  addMarker(ref);
+
   return (
-    <Marker position={landmark.location}>
+    <Marker position={landmark.location} ref={ref}>
       <Popup>
         <h2>{landmark.name}</h2>
         <p>{landmark.description}</p>

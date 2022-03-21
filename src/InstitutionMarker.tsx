@@ -1,6 +1,9 @@
 import { Marker, Popup } from "react-leaflet";
 import "./Map.css";
 import Institution from "./Institution";
+import { createRef } from "react";
+import { addMarker} from "./MapContext";
+import Leaflet from "leaflet";
 
 interface InstitutionMarkerProps {
   institution: Institution;
@@ -8,8 +11,11 @@ interface InstitutionMarkerProps {
 
 export default function InstitutionMarker({ institution }: InstitutionMarkerProps) {
 
+  const ref = createRef<Leaflet.Marker>();
+  addMarker(ref);
+
   return (
-    <Marker position={institution.location}>
+    <Marker position={institution.location} ref={ref}>
       <Popup>
         <h2>{institution.name}</h2>
         <p>{institution.description}</p>
