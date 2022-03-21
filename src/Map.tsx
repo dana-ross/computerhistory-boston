@@ -6,30 +6,18 @@ import "./Map.css";
 import Company from "./Company";
 import Landmark from "./Landmark";
 import Institution from "./Institution";
-import Config from "./Config";
+import {getDefaultCenter, getDefaultZoom, getCompanies, getLandmarks, getInstitutions} from "./ConfigContext";
 
-interface MapProps {
-  zoom: number;
-  companydata: Array<Company>;
-  landmarkdata: Array<Landmark>;
-  institutiondata: Array<Institution>;
-}
 
-const config = new Config();
+function Map() {
 
-function Map({
-  zoom,
-  companydata,
-  landmarkdata,
-  institutiondata,
-}: MapProps) {
   return (
     <MapContainer
-      center={config.center}
-      zoom={zoom}
+      center={getDefaultCenter()}
+      zoom={getDefaultZoom()}
     >
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-      {companydata.map((company: Company) => {
+      {getCompanies().map((company: Company) => {
         return (
           <CompanyMarker
             company={company}
@@ -37,7 +25,7 @@ function Map({
           />
         );
       })}
-      {landmarkdata.map((landmark: Landmark) => {
+      {getLandmarks().map((landmark: Landmark) => {
         return (
           <LandmarkMarker
             landmark={landmark}
@@ -45,7 +33,7 @@ function Map({
           />
         );
       })}
-      {institutiondata.map((institution: Institution) => {
+      {getInstitutions().map((institution: Institution) => {
         return (
           <InstitutionMarker
             institution={institution}
