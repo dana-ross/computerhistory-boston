@@ -11,14 +11,21 @@
     background-color: #fff;
 }
 
+@media screen and (max-width: 500px) {
+    #about {
+        width: 100%;
+    }
+}
+
 #about > * {
     margin: 0 1rem 1rem 1rem;
 }
 
-#about h1, #about p {
+#about h1 {
     font-family: 'Data Control', sans-serif;
+    margin-bottom: .25rem;
 }
 .leaflet-control-container {
     position: relative;
-    top: 6rem;
+    top: 10rem;
 }

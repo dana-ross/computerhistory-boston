@@ -5,6 +5,7 @@ import Company from "./Company";
 import Fuse from "fuse.js";
 import Landmark from "./Landmark";
 import { getMap, getMarkers } from "./MapContext";
+import { LatLngTuple } from "leaflet";
 
 type FuseResult<T> = Fuse.FuseResult<T>;
 
@@ -14,16 +15,23 @@ const allLandmarks = new Array<Landmark>().concat(
   config.institutions,
   config.landmarks
 );
+
 const fuse = new Fuse(allLandmarks, {
   keys: ["name", "address.city", "address.state", "address.zip"],
 });
+
+function adjustLocation(location : LatLngTuple) {
+  const adjustmentFactor = .20;
+  const adjustedLocation : LatLngTuple = [location[0] + adjustmentFactor, location[1]];
+  return adjustedLocation;
+}
 
 export default function Search() {
   const [query, setQuery] = useState<string>("");
   const [results, setResults] = useState<FuseResult<Company>[]>([]);
 
   return (
-    <div id="search" className="hover-box">
+    <div id="search">
       <input
         type="search"
         placeholder="Search"
@@ -41,7 +49,7 @@ export default function Search() {
                 <li
                   key={company.item.key()}
                   onClick={(e) => {
-                    getMap()?.flyTo(company.item.location);
+                    getMap()?.flyTo(adjustLocation(company.item.location));
                       getMarkers().find((candidate) => {
                         return (
                           candidate.current &&
@@ -49,12 +57,14 @@ export default function Search() {
                             .getLatLng()
                             .equals(company.item.location)
                         );
-                      })?.current?.openPopup()
+                      })?.current?.openPopup();
+                    setQuery('');
+                    setResults([]);
                     e.stopPropagation();
                     e.preventDefault();
                   }}
                 >
-                  <h2>{company.item.name}</h2>
+                  <h3>{company.item.name}</h3>
                   <p>
                     {company.item.address.city}, {company.item.address.state}
                   </p>

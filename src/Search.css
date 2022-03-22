@@ -1,15 +1,5 @@
-#search {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 20rem;
-    z-index: 2000;
-    background-color: #fff;
- 
-}
-
 #search > * {
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 0rem 1rem 0rem 0rem;
 }
 
 #search input {
@@ -17,7 +7,7 @@
 }
 
 #search-results {
-    margin: 0 0 0 1rem;
+    margin: 0;
     padding: 0;
 }
 
@@ -39,7 +29,7 @@
     border-top: none;
 }
 
-#search-results h2 {
+#search-results h3 {
     font-size: 1rem;
     margin: 0;
     padding: 0;

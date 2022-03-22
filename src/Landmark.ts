@@ -1,5 +1,5 @@
 import Address from "./Address";
-import { LatLngExpression } from "leaflet";
+import { LatLngTuple } from "leaflet";
 import Link from "./Link";
 import Keyable from "./Keyable";
 import formatSafeKey from "./formatSafeKey";
@@ -7,14 +7,14 @@ import formatSafeKey from "./formatSafeKey";
 export default class Landmark implements Keyable {
   name: string;
   address: Address;
-  location: LatLngExpression;
+  location: LatLngTuple;
   description: string;
   links: Link[] = [];
 
   constructor(
     name: string,
     address: Address,
-    location: LatLngExpression,
+    location: LatLngTuple,
     description: string,
     links: Link[] = []
   ) {

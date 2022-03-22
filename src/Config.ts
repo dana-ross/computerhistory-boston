@@ -1,4 +1,4 @@
-import { LatLngExpression } from "leaflet";
+import { LatLngTuple } from "leaflet";
 import Company from "./Company";
 import Landmark from "./Landmark";
 import Institution from "./Institution";
@@ -8,7 +8,7 @@ import institutionsRaw from "./data/institutions.json";
 import Link from "./Link";
 
 export default class Config {
-  center: LatLngExpression;
+  center: LatLngTuple;
   defaultZoom: number;
   companies = new Array<Company>();
   landmarks = new Array<Landmark>();
@@ -23,7 +23,7 @@ export default class Config {
         new Company(
           rawCompany.name,
           rawCompany.address,
-          rawCompany.location as LatLngExpression,
+          rawCompany.location as LatLngTuple,
           rawCompany.description,
           rawCompany.links.map((link: any) => new Link(link.title, link.href))
         )
@@ -35,7 +35,7 @@ export default class Config {
         new Landmark(
           rawLandmark.name,
           rawLandmark.address,
-          rawLandmark.location as LatLngExpression,
+          rawLandmark.location as LatLngTuple,
           rawLandmark.description,
           rawLandmark.links.map((link: any) => new Link(link.title, link.href))
         )
@@ -47,7 +47,7 @@ export default class Config {
         new Landmark(
           rawInstitution.name,
           rawInstitution.address,
-          rawInstitution.location as LatLngExpression,
+          rawInstitution.location as LatLngTuple,
           rawInstitution.description,
           rawInstitution.links.map(
             (link: any) => new Link(link.title, link.href)

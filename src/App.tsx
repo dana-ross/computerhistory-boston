@@ -1,6 +1,5 @@
 import Map from "./Map";
 import About from "./About";
-import Search from "./Search";
 import fixLeafletIcons from "./fixLeafletIcons";
 import "./App.css";
 import ConfigContext from "./ConfigContext";
@@ -15,7 +14,6 @@ function App() {
         <MapContext>
           <Map></Map>
           <About></About>
-          <Search></Search>
         </MapContext>
       </ConfigContext>
     </div>
