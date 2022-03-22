@@ -27,5 +27,47 @@
                 "href": "https://computerhistory.org/"
             }
         ]
+    },
+    {
+        "type": "Landmark",
+        "name": "Birthplace of the Telephone",
+        "address": {
+            "street": "1 Center Plaza",
+            "city": "Boston",
+            "state":"MA",
+            "zip": "02108"
+        },
+        "location": [
+            42.35913,
+            -71.05983
+        ],
+        "description": "On June 2, 1875, Alexander Graham Bell and Thomas A. Watson first transmitted sound over wires. This successful experiment was completed in a fifth floor garret at what was then 109 Court Street and marked the beginning of world-wide telephone service.",
+        "links": [
+            {
+                "title": "Read the Plaque",
+                "href": "https://readtheplaque.com/plaque/the-first-telephone"
+            }
+        ]
+    },
+    {
+        "type": "Landmark",
+        "name": "First Two-Way Long Distance Telephone Call",
+        "address": {
+            "street": "700 Main St.",
+            "city": "Cambridge",
+            "state":"MA",
+            "zip": "02139"
+        },
+        "location": [
+            42.3623,
+            -71.0950
+        ],
+        "description": "Birthplace of the Telephone. Here, on June 2, 1875, Alexander Graham Bell and Thomas A. Watson first transmitted sound over wires. This successful experiment was completed in a fifth floor garret at what was then 109 Court Street and marked the beginning of world-wide telephone service.",
+        "links": [
+            {
+                "title": "Site of the First Transcontinental Call",
+                "href": "https://www.atlasobscura.com/places/site-of-first-long-distance-phone-call"
+            }
+        ]
     }
 ]

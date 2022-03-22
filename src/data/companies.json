@@ -103,5 +103,53 @@
                 "href": "http://www.teamfoster.com/billteamfostercom/"
             }
         ]
+    },
+    {
+        "name": "Wang Laboratories",
+        "address": {
+            "street": "900 Chelmsford Avenue",
+            "city": "Lowell",
+            "state": "MA",
+            "zip": "01851"
+        },
+        "location": [
+            42.61447,
+            -71.32713
+        ],
+        "description": "Wang Laboratories was a computer company founded in 1951, by An Wang and G. Y. Chu.[1] The company was successively headquartered in Cambridge, Massachusetts (1954–1963), Tewksbury, Massachusetts (1963–1976), and finally in Lowell, Massachusetts (1976–1997).",
+        "links": [
+            {
+                "title": "Remember When: Wang Laboratories",
+                "href": "https://www.lowellsun.com/2013/08/03/remember-when-wang-laboratories/"
+            },
+            {
+                "title": "Cross Point",
+                "href": "https://crosspointma.com/"
+            }
+        ]
+    },
+    {
+        "name": "Wang Laboratories",
+        "address": {
+            "street": "836 North St.",
+            "city": "Tewksbury",
+            "state": "MA",
+            "zip": "01876"
+        },
+        "location": [
+            42.63701,
+            -71.23859
+        ],
+        "description": "Wang Laboratories was a computer company founded in 1951, by An Wang and G. Y. Chu.[1] The company was successively headquartered in Cambridge, Massachusetts (1954–1963), Tewksbury, Massachusetts (1963–1976), and finally in Lowell, Massachusetts (1976–1997).",
+        "links": [
+            {
+                "title": "Remember When: Wang Laboratories",
+                "href": "https://www.lowellsun.com/2013/08/03/remember-when-wang-laboratories/"
+            },
+            {
+                "title": "Cross Point",
+                "href": "https://crosspointma.com/"
+            }
+        ]
     }
 ]

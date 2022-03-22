@@ -18,5 +18,42 @@
                 "href": "https://www.ll.mit.edu/"
             }
         ]
+    },
+    {
+        "name": "MIT Barta Building",
+        "address": {
+            "street": "211 Massachusetts Avenue",
+            "city": "Cambridge",
+            "state": "MA",
+            "zip": "02139"
+        },
+        "location": [
+            42.36131,
+            -71.09681
+        ],
+        "description": "Within the Barta Building, occupying some 2500 square feet of floor space, was a monstrous, 9-ton Rube Goldberg-looking machine called the Whirlwind computer (1948-1959). Although the exact eureka moment of Whirlwind’s first digital ping is shrouded in a bit of mystery, by the fall of 1949, it was definitely purring away, solving simple equations in real time and displaying answers on an oscilloscope. It was a first-ever for real-time digital computing.",
+        "links": [
+            {
+                "title": "The Most Important Building in the History of Computing",
+                "href": "http://brightboysmedia.com/barta-building-2/"
+            }
+        ]
+    },
+    {
+        "name": "Harvard University Cruft Laboratory",
+        "address": {
+            "street": "19 Oxford St",
+            "city": "Cambridge",
+            "state":"MA",
+            "zip": "02138"
+        },
+        "location": [
+            42.3777086,
+            -71.1191243
+        ],
+        "description": "The original Mark I weighed five tons and was 50 feet long. It was the brainchild of a Harvard graduate student, Howard Aiken, who designed it in 1937, building on decades-old inspiration from British engineer and inventor Charles Babbage. Aiken shopped the idea around until IBM took interest. The machine itself, developed in collaboration with company scientists, was delivered to Harvard’s Cruft Lab in 1944, in time to lend a hand in the nation’s World War II effort, including the development of the atom bomb, missile trajectories, and the design of radar facilities.",
+        "links": [
+
+        ]
     }
 ]
