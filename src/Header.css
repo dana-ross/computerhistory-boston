@@ -3,25 +3,21 @@
     src: url(./fonts/data-latin.ttf) format('truetype');
 }
 
-#about {
+header {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 2000;
     background-color: #fff;
+    width: 100%;
+    box-shadow: 2px 2px 4px #333;
 }
 
-@media screen and (max-width: 500px) {
-    #about {
-        width: 100%;
-    }
-}
-
-#about > * {
+header > * {
     margin: 0 1rem 1rem 1rem;
 }
 
-#about h1 {
+header h1 {
     font-family: 'Data Control', sans-serif;
     margin-bottom: .25rem;
 }

@@ -1,9 +1,10 @@
 import Map from "./Map";
-import About from "./About";
+import Header from "./Header";
 import fixLeafletIcons from "./fixLeafletIcons";
 import "./App.css";
 import ConfigContext from "./ConfigContext";
 import MapContext from "./MapContext";
+import Footer from "./Footer";
 
 fixLeafletIcons();
 
@@ -13,7 +14,8 @@ function App() {
       <ConfigContext>
         <MapContext>
           <Map></Map>
-          <About></About>
+          <Header></Header>
+          <Footer></Footer>
         </MapContext>
       </ConfigContext>
     </div>

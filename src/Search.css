@@ -7,8 +7,10 @@
 }
 
 #search-results {
+    font-size: .75rem;
     margin-top: 1rem;
     padding: 0;
+    width: auto;
 }
 
 #search-results ul {
@@ -30,13 +32,11 @@
 }
 
 #search-results h3 {
-    font-size: 1rem;
     margin: 0;
     padding: 0;
 }
 
 #search-results p {
-    font-size: 1rem;
     margin: 0;
     padding: 0;
 }
