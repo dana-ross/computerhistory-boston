@@ -20,6 +20,6 @@
     padding: 0;
 }
 
-.company-links ul {
+.company-links ul, .institution-links ul, .landmark-links ul {
     padding-left: 1rem;
 }
