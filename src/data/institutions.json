@@ -17,7 +17,8 @@
                 "title": "MIT Lincoln Lab",
                 "href": "https://www.ll.mit.edu/"
             }
-        ]
+        ],
+        "logo": "MIT_logo.svg"
     },
     {
         "name": "MIT Barta Building",
@@ -37,7 +38,8 @@
                 "title": "The Most Important Building in the History of Computing",
                 "href": "http://brightboysmedia.com/barta-building-2/"
             }
-        ]
+        ],
+        "logo": "MIT_logo.svg"
     },
     {
         "name": "Harvard University Cruft Laboratory",
