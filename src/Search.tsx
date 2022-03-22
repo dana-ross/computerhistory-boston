@@ -17,7 +17,7 @@ const allLandmarks = new Array<Landmark>().concat(
 );
 
 const fuse = new Fuse(allLandmarks, {
-  keys: ["name", "address.city", "address.state", "address.zip"],
+  keys: ["name", "address.city", "address.state", "address.zip", "description"],
 });
 
 function adjustLocation(location : LatLngTuple) {
