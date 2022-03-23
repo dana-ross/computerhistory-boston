@@ -23,3 +23,8 @@
 .company-links ul, .institution-links ul, .landmark-links ul {
     padding-left: 1rem;
 }
+
+.logo {
+    max-width: 50%;
+    max-height: 2rem;
+}

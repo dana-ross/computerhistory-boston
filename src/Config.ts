@@ -25,7 +25,8 @@ export default class Config {
           rawCompany.address,
           rawCompany.location as LatLngTuple,
           rawCompany.description,
-          rawCompany.links.map((link: any) => new Link(link.title, link.href))
+          rawCompany.links.map((link: any) => new Link(link.title, link.href)),
+          rawCompany.logo ? rawCompany.logo : ''
         )
       );
     });
@@ -37,7 +38,8 @@ export default class Config {
           rawLandmark.address,
           rawLandmark.location as LatLngTuple,
           rawLandmark.description,
-          rawLandmark.links.map((link: any) => new Link(link.title, link.href))
+          rawLandmark.links.map((link: any) => new Link(link.title, link.href)),
+          rawLandmark.logo ? rawLandmark.logo : ''
         )
       );
     });
@@ -51,7 +53,8 @@ export default class Config {
           rawInstitution.description,
           rawInstitution.links.map(
             (link: any) => new Link(link.title, link.href)
-          )
+          ),
+          rawInstitution.logo ? rawInstitution.logo : ''
         )
       );
     });

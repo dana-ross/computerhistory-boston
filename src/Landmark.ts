@@ -10,19 +10,22 @@ export default class Landmark implements Keyable {
   location: LatLngTuple;
   description: string;
   links: Link[] = [];
+  logo: string;
 
   constructor(
     name: string,
     address: Address,
     location: LatLngTuple,
     description: string,
-    links: Link[] = []
+    links: Link[] = [],
+    logo: string
   ) {
     this.name = name;
     this.address = address;
     this.location = location;
     this.description = description;
     this.links = links;
+    this.logo = logo ? logo : "";
   }
 
   key() {

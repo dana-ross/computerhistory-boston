@@ -12,7 +12,8 @@
             -71.1536
         ],
         "description": "Infocom was an American software company based in Cambridge, Massachusetts, that produced numerous works of interactive fiction. They also produced a business application, a relational database called Cornerstone.",
-        "links": []
+        "links": [],
+        "logo": "Infocom_Logo.svg"
     },
     {
         "name": "Psygnosis, Ltd.",
@@ -27,7 +28,8 @@
             -71.10422
         ],
         "description": "Psygnosis was a British video game developer and publisher. The company was founded in Liverpool in 1984 from the ashes of Imagine, and initially developed games (mostly in the action genre) for Amiga and Atari ST. After their initial success with their early games, such as Brataccas, Psygnosis' biggest hit came with Lemmings, released in 1991 and spawned many sequels. This success led to the acquisition of the company by Sony Corp. on May 23, 1993.",
-        "links": []
+        "links": [],
+        "logo": "Psygnosis-text.png"
     },
     {
         "name": "Psygnosis, Ltd.",
@@ -42,7 +44,8 @@
             -71.10828
         ],
         "description": "Psygnosis was a British video game developer and publisher. The company was founded in Liverpool in 1984 from the ashes of Imagine, and initially developed games (mostly in the action genre) for Amiga and Atari ST. After their initial success with their early games, such as Brataccas, Psygnosis' biggest hit came with Lemmings, released in 1991 and spawned many sequels. This success led to the acquisition of the company by Sony Corp. on May 23, 1993.",
-        "links": []
+        "links": [],
+        "logo": "Psygnosis-text.png"
     },
     {
         "name": "Apollo Computer, Inc.",
@@ -62,7 +65,8 @@
                 "title": "The Apollo Archive",
                 "href": "https://jim.rees.org/apollo-archive/"
             }
-        ]
+        ],
+        "logo": "Apollo_Computer_logo.svg"
     },
     {
         "name": "Digital Equipment Corporation",
@@ -82,7 +86,8 @@
                 "title": "DECConnection",
                 "href": "http://www.decconnection.org/"
             }
-        ]
+        ],
+        "logo": "Digital_Equipment_Corporation_1993_logo.svg"
     },
     {
         "name": "Data General",
@@ -102,7 +107,8 @@
                 "title": "The Fair Bastards",
                 "href": "http://www.teamfoster.com/billteamfostercom/"
             }
-        ]
+        ],
+        "logo": "Data_General_logo.svg"
     },
     {
         "name": "Wang Laboratories",
@@ -153,5 +159,23 @@
             }
         ],
         "logo": "Wang_Laboratories_wordmark.svg"
+    },
+    {
+        "name": "Bolt Beranek and Newman Inc.",
+        "address": {
+            "street": "50 Moulton Street",
+            "city": "Cambridge",
+            "state": "MA",
+            "zip": "02138"
+        },
+        "location": [
+            42.39106,
+            -71.14785
+        ],
+        "description":"After the PDP-1 arrived, BBN hired two of Licklider's friends from MIT, John McCarthy and Marvin Minsky, as consultants. McCarthy had been unsuccessful in convincing MIT engineers to build time-sharing systems for computers. He had more success at BBN though, working with Ed Fredkin and Sheldon Boilen in implementing one of the first timesharing systems, the BBN Time-Sharing System. In 1962, BBN would install one such time-shared information system at Massachusetts General Hospital where doctors and nurses could create and access patients' information at various nurses' stations connected to a central computer. BBN would soon begin more research about integrating computers and medicine, hiring Bob Taylor in 1965 and MIT Lincoln Laboratory computer systems engineer Frank Heart in 1966.",
+        "links": [
+
+        ],
+        "logo": "bbn-logo.jpg"
     }
 ]

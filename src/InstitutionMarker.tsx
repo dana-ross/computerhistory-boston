@@ -5,6 +5,7 @@ import { createRef } from "react";
 import { addMarker} from "./MapContext";
 import Leaflet from "leaflet";
 import FullAddress from "./FullAddress";
+import LandmarkLogo from "./LandmarkLogo";
 
 interface InstitutionMarkerProps {
   institution: Institution;
@@ -18,6 +19,7 @@ export default function InstitutionMarker({ institution }: InstitutionMarkerProp
   return (
     <Marker position={institution.location} ref={ref}>
       <Popup>
+        <LandmarkLogo landmark={institution}></LandmarkLogo>
         <h2>{institution.name}</h2>
         <FullAddress address={institution.address}></FullAddress>
         <p>{institution.description}</p>

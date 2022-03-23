@@ -5,6 +5,7 @@ import { createRef } from "react";
 import { addMarker} from "./MapContext";
 import Leaflet from "leaflet";
 import FullAddress from "./FullAddress";
+import LandmarkLogo from "./LandmarkLogo";
 
 interface CompanyMarkerProps {
   company: Company;
@@ -18,6 +19,7 @@ export default function CompanyMarker({ company }: CompanyMarkerProps) {
   return (
     <Marker position={company.location} ref={ref}>
       <Popup>
+        <LandmarkLogo landmark={company}></LandmarkLogo>
         <h2>{company.name}</h2>
         <FullAddress address={company.address}></FullAddress>
         <p>{company.description}</p>
