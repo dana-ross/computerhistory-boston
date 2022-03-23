@@ -6,12 +6,12 @@
 }
 
 .leaflet-popup-content p {
-    margin: 0 0 1rem 0;
+    margin: 1rem 0 1rem 0;
     padding: 0;
     line-height: 1.4;
 }
 
-.leaflet-popup-content h1, .leaflet-popup-content h2, .leaflet-popup-content h3, .leaflet-popup-content h4, .leaflet-popup-content   h5 {
+.leaflet-popup-content h1, .leaflet-popup-content h2, .leaflet-popup-content h3, .leaflet-popup-content h4, .leaflet-popup-content h5 {
     font-size: .75rem;
     font-weight: bold;
     line-height: 1.4;
@@ -27,4 +27,9 @@
 .logo {
     max-width: 50%;
     max-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.leaflet-popup-content address {
+    font-style: italic;
 }
