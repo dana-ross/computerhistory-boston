@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Transistor Products Inc.",
+        "address": {
+            "city": "Brighton",
+            "state": "MA",
+            "zip": "02135"
+        },
+        "location": [
+
+        ],
+        "description": "The company was initially known as Transistor Products Inc (TP), and, when purchased by Clevite in the mid 1950s, was known as Clevite Transistor Products (CTP)",
+        "links": [
+            {
+                "title": "Neville Fletcher oral history",
+                "href": "http://www.semiconductormuseum.com/Transistors/TransistorProducts/OralHistories/Fletcher/Fletcher_Index.htm"
+            },
+            {
+                "title": "Transistor Products (Transistor History)",
+                "href": "https://sites.google.com/site/transistorhistory2/home/transistor-products"
+            }
+        ],
+        "logo": ""
+    },
+    {
+        "name": "David W. Mann Instrument Company ",
+        "address": {
+            "street": "Route 2A",
+            "city": "Lincoln",
+            "state":"MA",
+            "zip": ""
+        },
+        "location": [
+
+        ],
+        "description": "The David W. Mann Company manufactured precision measuring instruments and manufacturing equipment in Lincoln, MA. A pioneer in photolithographic technology for the semiconductor industry, the company was sold to GCA Corporation in 1959. Burton H. Wheeler, Jr. was appointed general manager of the Mann Products Division and, later, an executive vice president of GCA. In 1961 the division produced the first commercial photorepeater for mask making and in 1978 introduced DSW (Direct Step on Wafer) technology that is still used to day.",
+        "links": [
+            {
+                "title": "David W. Mann and GCA",
+                "href": "http://life.lithoguru.com/?p=38"
+            }
+        ],
+        "logo": ""
+    },
+    {
+        "name": "Trans-Pro Labs",
+        "address": {
+            "street": "263 Bouchard Avenue",
+            "city": "Dracut",
+            "state": "MA",
+            "zip":""
+        },
+        "location": [
+
+        ],
+        "description": "",
+        "links": [
+            
+        ],
+        "logo": ""
+    }
+]

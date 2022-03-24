@@ -111,7 +111,7 @@
         "logo": "Data_General_logo.svg"
     },
     {
-        "name": "Wang Laboratories",
+        "name": "Wang Laboratories (1976–1997)",
         "address": {
             "street": "900 Chelmsford Avenue",
             "city": "Lowell",
@@ -136,7 +136,7 @@
         "logo": "Wang_Laboratories_wordmark.svg"
     },
     {
-        "name": "Wang Laboratories",
+        "name": "Wang Laboratories (1963–1976)",
         "address": {
             "street": "836 North St.",
             "city": "Tewksbury",
@@ -177,5 +177,264 @@
 
         ],
         "logo": "bbn-logo.jpg"
+    },
+    {
+        "name": "Analog Devices, Inc.",
+        "address": {
+            "street": "21 Osborne St",
+            "city": "Cambridge",
+            "state": "MA",
+            "zip": "02139"
+        },
+        "location": [
+            42.3615532,
+            -71.0977666
+        ],
+        "description": "Analog Devices, Inc. was founded by Matthew Lorber and Ray Stata in 1965 in Cambridge, MA to produce modular precision operational amplifiers. In 1969 the company entered the semiconductor market by funding and later acquiring analog startup Nova Devices and by purchasing Precision Monolithics of Santa Clara, CA in 1990. Today ADI is a major supplier of analog, mixed-signal, and DSP products based in Norwood. MA. Fiscal year 2006 revenue was $2.57 billion.",
+        "links": [
+            {
+                "title": "The Analog Devices building...was torn down",
+                "href": "http://tech.mit.edu/V131/N56/graphics/analogdevices.html"
+            }
+        ],
+        "logo": "analog-devices-logo-svg-vector.svg"
+    },
+    {
+        "name": "Nexus Research Laboratory, Inc.",
+        "address": {
+            "street": "480 Neponset Street",
+            "city": "Canton",
+            "state": "MA",
+            "zip": "02021"
+        },
+        "location": [
+            42.1620386,
+            -71.1626397
+        ],
+        "description": "Roger Noble and Alan R. Pearlman founded Nexus Research Laboratory, Inc of Canton, MA from Philbrick Researches, Boston, MA in the early 1960s to produce analog modules and op amps. The companies were reunited in 1966 when Teledyne Components acquired them both to create Teledyne Philbrick Nexus. In about 1985, Teledyne spun this business off as Telcom Semiconductor Inc, Mountain View, CA that was acquired in 2000 by Microchip.",
+        "links": [
+
+        ],
+        "logo": "Nexus Research Laboratory.png"
+    },
+    {
+        "name": "George A Philbrick Researches (GAP/R) (1956-1958)",
+        "address": {
+            "street": "230 Congress Street",
+            "city": "Boston",
+            "state": "MA",
+            "zip": "02110"
+        },
+        "location": [
+            42.3544,
+            -71.05436
+        ],
+        "description": "George Arthur Philbrick built the first commercial Operational amplifier, the K2-W. The company was first in Boston, MA: 1956 at 230 Congress Street, 1958 at 285 Columbus Avenue and 1963 at 127, Clarendon Street, Boston 16. In 1968 they were in Dedham, MA, Allied Drive at Route 128 where they still could be found in 1982 as Philbrick/Nexus Research, A Teledyne Company.",
+        "links": [
+            {
+                "title": "George A. Philbrick Researches Archive",
+                "href": "http://www.philbrickarchive.org/"
+            }
+        ],
+        "logo": "Philbrick Researches.jpg"
+    },
+    {
+        "name": "George A Philbrick Researches (GAP/R) (1958–1963)",
+        "address": {
+            "street": "285 Columbus Avenue",
+            "city": "Boston",
+            "state": "MA",
+            "zip": "02116"
+        },
+        "location": [
+            42.3470925,
+            -71.076207
+        ],
+        "description": "George Arthur Philbrick built the first commercial Operational amplifier, the K2-W. The company was first in Boston, MA: 1956 at 230 Congress Street, 1958 at 285 Columbus Avenue and 1963 at 127, Clarendon Street, Boston 16. In 1968 they were in Dedham, MA, Allied Drive at Route 128 where they still could be found in 1982 as Philbrick/Nexus Research, A Teledyne Company.",
+        "links": [
+            {
+                "title": "George A. Philbrick Researches Archive",
+                "href": "http://www.philbrickarchive.org/"
+            }
+        ],
+        "logo": "Philbrick Researches.jpg"
+    },
+    {
+        "name": "George A Philbrick Researches (GAP/R) (1963–1968)",
+        "address": {
+            "street": "127 Clarendon Street",
+            "city": "Boston",
+            "state": "MA",
+            "zip": "02116"
+        },
+        "location": [
+            42.3483865,
+            -71.075974
+        ],
+        "description": "George Arthur Philbrick built the first commercial Operational amplifier, the K2-W. The company was first in Boston, MA: 1956 at 230 Congress Street, 1958 at 285 Columbus Avenue and 1963 at 127, Clarendon Street, Boston 16. In 1968 they were in Dedham, MA, Allied Drive at Route 128 where they still could be found in 1982 as Philbrick/Nexus Research, A Teledyne Company.",
+        "links": [
+            {
+                "title": "George A. Philbrick Researches Archive",
+                "href": "http://www.philbrickarchive.org/"
+            }
+        ],
+        "logo": "Philbrick Researches.jpg"
+    },
+    {
+        "name": "George A Philbrick Researches (GAP/R) (1968–)",
+        "address": {
+            "street": "40 Allied Dr",
+            "city": "Dedham",
+            "state": "MA",
+            "zip": "02026"
+        },
+        "location": [
+            42.2249041,
+            -71.1719259
+        ],
+        "description": "George Arthur Philbrick built the first commercial Operational amplifier, the K2-W. The company was first in Boston, MA: 1956 at 230 Congress Street, 1958 at 285 Columbus Avenue and 1963 at 127, Clarendon Street, Boston 16. In 1968 they were in Dedham, MA, Allied Drive at Route 128 where they still could be found in 1982 as Philbrick/Nexus Research, A Teledyne Company.",
+        "links": [
+            {
+                "title": "George A. Philbrick Researches Archive",
+                "href": "http://www.philbrickarchive.org/"
+            }
+        ],
+        "logo": "Philbrick Researches.jpg"
+    },
+    {
+        "name": "GCA Corp.",
+        "address": {
+            "street": "7 Shattuck Road",
+            "city": "Andover",
+            "state": "MA",
+            "zip": "01810"
+        },
+        "location": [
+            42.6823233,
+            -71.2081266
+        ],
+        "description": "GCA was a pioneer in the vital chip making technology known as photolithography, but ran into problems in the mid-1980s and lost the market to Japanese competitors Nikon and Canon.",
+        "links": [
+            {
+                "title": "Chip Making Pioneer GCA Corp. Closes Factory",
+                "href": "https://www.latimes.com/archives/la-xpm-1993-05-22-fi-38507-story.html"
+            }
+        ],
+        "logo": "GCA.png"
+    },
+    {
+        "name": "GCA Corp.",
+        "address": {
+            "street": "174 Middlesex Turnpike",
+            "city": "Burlington",
+            "state": "MA",
+            "zip": "01803"
+        },
+        "location": [
+            42.4917426,
+            -71.2273401
+        ],
+        "description": "GCA was a pioneer in the vital chip making technology known as photolithography, but ran into problems in the mid-1980s and lost the market to Japanese competitors Nikon and Canon.",
+        "links": [
+            {
+                "title": "Chip Making Pioneer GCA Corp. Closes Factory",
+                "href": "https://www.latimes.com/archives/la-xpm-1993-05-22-fi-38507-story.html"
+            }
+        ],
+        "logo": "GCA.png"
+    },
+    {
+        "name": "Transistor Specialtys, Inc.",
+        "address": {
+            "street": "5 Southside Rd.",
+            "city": "Danvers",
+            "state": "MA",
+            "zip": "01923"
+        },
+        "location":[
+            42.5647449,
+            -70.970231
+        ],
+        "description": "TSI was a manufacturer of measuring equipment.",
+        "links": [
+
+        ],
+        "logo": ""
+    },
+    {
+        "name": "Sylvania Semiconductor Division",
+        "address": {
+            "street": "100 Sylvan Road",
+            "city": "Woburn",
+            "state": "MA",
+            "zip": "01801"
+        },
+        "location": [
+            42.5010412,
+            -71.164684
+        ],
+        "description": "Sylvania Electric Products Inc. was an American manufacturer of diverse electrical equipment, including at various times radio transceivers, vacuum tubes, semiconductors, and mainframe computers such as MOBIDIC. They were one of the companies involved in the development of the COBOL programming language.",
+        "links": [
+
+        ],
+        "logo": "SylvaniaElectricLOGO.png"
+    },
+    {
+        "name": "Transitron Electronic Corporation",
+        "address": {
+            "street": "168 Albion St.",
+            "city": "Wakefield",
+            "state": "MA",
+            "zip": "01880"
+        },
+        "location": [
+            42.5007227,
+            -71.078345
+        ],
+        "description": "Founded by Dr. David Bakalar in Wakefield, Massachusetts in 1952 to manufacture transistors. Dr. Bakalar led Transitron for 30 years. Transitron ceased operations in 1986. By 1955 TI and Transitron were the leaders of the transistor industry with over 35% of the market. By 1961 Transitron was the number two American semiconductor company behind Texas Instruments with sales of over $40 million. As the 60’s rolled on silicon and planar technologies drastically changed the economics of the transistor industry. The company ultimately failed after not investing in the development of these new technologies. It had difficulty transitioning from Germanium to Silicon technology and subsequently integrated circuit technology. Transistron did manufacture IC’s and even developed a bipolar microprocessor. However, the company never recovered from expenditure of funds to develop the microprocessor.",
+        "links": [
+            {
+                "title": "The Transistor Tycoons",
+                "href": "http://content.time.com/time/subscriber/article/0,33009,865172,00.html"
+            },
+            {
+                "title": "Transitron Electronic Corporation Flick tag",
+                "href": "https://www.flickr.com/photos/tags/transitronelectroniccorporation"
+            },
+            {
+                "title": "The Demise of Transitron",
+                "href": "https://www.nytimes.com/1986/06/30/business/the-demise-of-transitron.html"
+            }
+        ],
+        "logo": "TransitronMark.png"
+    },
+    {
+        "name": "Transitron Electronic Corp",
+        "address": {
+            "street": "403-407 Main St.",
+            "city": "Melrose",
+            "state":"MA",
+            "zip": "02176"
+        },
+        "location": [
+            42.4534253,
+            -71.0678057
+        ],
+        "description": "Founded by Dr. David Bakalar in Wakefield, Massachusetts in 1952 to manufacture transistors. Dr. Bakalar led Transitron for 30 years. Transitron ceased operations in 1986. By 1955 TI and Transitron were the leaders of the transistor industry with over 35% of the market. By 1961 Transitron was the number two American semiconductor company behind Texas Instruments with sales of over $40 million. As the 60’s rolled on silicon and planar technologies drastically changed the economics of the transistor industry. The company ultimately failed after not investing in the development of these new technologies. It had difficulty transitioning from Germanium to Silicon technology and subsequently integrated circuit technology. Transistron did manufacture IC’s and even developed a bipolar microprocessor. However, the company never recovered from expenditure of funds to develop the microprocessor.",
+        "links": [
+            {
+                "title": "The Transistor Tycoons",
+                "href": "http://content.time.com/time/subscriber/article/0,33009,865172,00.html"
+            },
+            {
+                "title": "Transitron Electronic Corporation Flick tag",
+                "href": "https://www.flickr.com/photos/tags/transitronelectroniccorporation"
+            },
+            {
+                "title": "The Demise of Transitron",
+                "href": "https://www.nytimes.com/1986/06/30/business/the-demise-of-transitron.html"
+            }
+        ],
+        "logo": "TransitronMark.png"
     }
 ]
