@@ -436,5 +436,23 @@
             }
         ],
         "logo": "TransitronMark.png"
+    },
+    {
+        "name": "The Tech Computer Store",
+        "address": {
+            "street": "199 Alewife Brook Parkway",
+            "city": "Cambridge",
+            "state":"MA",
+            "zip": "02138"
+        },
+        "location": [
+            42.3902898,
+            -71.1448929
+        ],
+        "description": "A computer store founded in 1982 selling home computers, including the popular Apple II line.",
+        "links": [
+           
+        ],
+        "logo": ""
     }
 ]
