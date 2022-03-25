@@ -9,6 +9,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+     - uses: actions/setup-node@v2
+      with:
+       node-version: '16'
     - uses: actions/checkout@main
     - uses: jeanlescure/react-deploy-to-s3-action@main
       with:
