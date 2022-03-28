@@ -70,5 +70,26 @@
                 "href": "https://www.atlasobscura.com/places/site-of-first-long-distance-phone-call"
             }
         ]
+    },
+    {
+        "name": "Out of Town News",
+        "address": {
+            "street": "18 Brattle St.",
+            "city": "Cambridge",
+            "state":"MA",
+            "zip": "02138"
+        },
+        "location":[
+            42.373393,
+            -71.121119
+        ],
+        "description": "Opened in 1955, Out of Town News served the Harvard community until its closign in 2019. It's here that a young Paul Allen discovered the infamous Altair issue of Popular Electronics on the newsstand, which inspired him and Bill Gates to create an implementation of the BASIC programming language for the fledgling home computer.",
+        "links": [
+            {
+                "title": "Out of Town out of time",
+                "href": "https://news.harvard.edu/gazette/story/2019/11/out-of-town-out-of-time-iconic-harvard-sq-newsstand-sells-last-edition/"
+            }
+        ],
+        "logo": ""
     }
 ]
