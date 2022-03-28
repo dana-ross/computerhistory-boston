@@ -58,5 +58,26 @@
 
         ],
         "logo": "Harvard_University_logo.svg"
+    },
+    {
+        "name": "Currier House",
+        "address": {
+            "street": "64 Linnaean St",
+            "city": "Cambridge",
+            "state":"MA",
+            "zip":"02138"
+        },
+        "location": [
+            42.3818119,
+            -71.1277265
+        ],
+        "description": "Bill Gates and Paul Allen roomed together in Currier House during their sophomore year at Harvard. Their earliest collaborations, including Altair BASIC, happened here.",
+        "links": [
+            {
+                "title": "Dawn of a Revolution",
+                "href": "https://news.harvard.edu/gazette/story/2013/09/dawn-of-a-revolution/"
+            }
+        ],
+        "logo": "currier.png"
     }
 ]
