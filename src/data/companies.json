@@ -454,5 +454,26 @@
            
         ],
         "logo": ""
+    },
+    {
+        name: "Kendall Square Research (late 1980s–1994)",
+        address: {
+            "street": "170 Tracer Lane",
+            "city": "Waltham",
+            "state": "MA",
+            "zip": "02451"
+        },
+        "location": [
+            42.4205153,
+            -71.2603761
+        ],
+        "description": "Kendall Square Research (KSR) was a supercomputer company headquartered originally in Kendall Square in Cambridge, Massachusetts in 1986, near Massachusetts Institute of Technology (MIT). It was co-founded by Steven Frank[1] and Henry Burkhardt III, who had formerly helped found Data General and Encore Computer and was one of the original team that designed the PDP-8. KSR produced two models of supercomputer, the KSR1 and KSR2. It went bankrupt in 1994.",
+        "links": [
+            {
+                "title": "Kendall Square Research Files for Bankruptcy",
+                "href": "https://apnews.com/article/9e7c8fb73ebad932a299c2515efc5086"
+            }
+        ],
+        "logo": ""
     }
 ]
