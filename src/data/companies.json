@@ -456,8 +456,8 @@
         "logo": ""
     },
     {
-        name: "Kendall Square Research (late 1980s–1994)",
-        address: {
+        "name": "Kendall Square Research (late 1980s–1994)",
+        "address": {
             "street": "170 Tracer Lane",
             "city": "Waltham",
             "state": "MA",
