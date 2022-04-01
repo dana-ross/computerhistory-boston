@@ -475,5 +475,22 @@
             }
         ],
         "logo": ""
+    },
+    {
+        "name": "Thinking Machines Corporation",
+        "address": {
+            "street": "245 First Street",
+            "city": "Cambridge",
+            "state": "MA",
+            "zip": "02142"
+        },
+        "location": [
+            42.3635219,
+            -71.0812145
+        ],
+        "description": "Thinking Machines Corporation was a supercomputer manufacturer and artificial intelligence (AI) company, founded in Waltham, Massachusetts, in 1983 by Sheryl Handler and W. Daniel "Danny" Hillis to turn Hillis's doctoral work at the Massachusetts Institute of Technology (MIT) on massively parallel computing architectures into a commercial product named the Connection Machine. The company moved in 1984 from Waltham to Kendall Square in Cambridge, Massachusetts, close to the MIT AI Lab.",
+        "links": [
+        ],
+        "logo": "Thinking_Machines_Corporation_logo.png"
     }
 ]
