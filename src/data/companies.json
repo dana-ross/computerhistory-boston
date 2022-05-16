@@ -509,5 +509,22 @@
         "links": [
         ],
         "logo": "Thinking_Machines_Corporation_logo.png"
+    },
+    {
+        "name": "Prime Computers",
+        "address": {
+            "street": "1 Prime Park Way",
+            "city": "Natick",
+            "state": "MA",
+            "zip": "01760"
+        },
+        "location": [
+                42.2907432,
+                -71.3631491
+        ],
+        "description": "Prime Computer, Inc. was a Natick, Massachusetts-based producer of minicomputers from 1972 until 1992. With the advent of PCs and the decline of the minicomputer industry, Prime was forced out of the market in the early 1990s, and by the end of 2010 the trademarks for both PRIME and PRIMOS no longer existed.",
+        "links": [
+        ],
+        "logo": "Prime_computer_logo.jpg"
     }
 ]
