@@ -46,5 +46,8 @@
   },
   "devDependencies": {
     "@types/leaflet": "^1.7.9"
+  },
+  "overrides": {
+    "autoprefixer": "10.4.5"
   }
 }
