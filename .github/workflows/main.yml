@@ -10,10 +10,10 @@ jobs:
         - uses: actions/checkout@v2
 
         - name: Install dependencies
-          run: yarn
+          run: npm install --production
 
         - name: Build
-          run: yarn build
+          run: npm run-script build
 
         - name: Deploy
           uses: reggionick/s3-deploy@v3
