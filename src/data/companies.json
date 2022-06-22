@@ -526,5 +526,29 @@
         "links": [
         ],
         "logo": "Prime_computer_logo.jpg"
+    },
+    {
+        "name": "AMP Keyboard Technologies, Inc.",
+        "address": {
+            "street": "84 Dragon Court",
+            "city": "Woburn",
+            "state": "MA",
+            "zip": "01801"
+        },
+        "location": [
+            42.5146554,
+            -71.1328415
+        ],
+        "description": "AMP Keyboard Technologies, Inc. was a producer of membrane keyboards for computing and industrial use. They produced the keyboards for the ill-fated Commodore MAX computer and were sued by Commodore in 1983, claiming their keyboards were defective and unfit for use. The company was purchased by Lucas Industries, Plc. in 1989 for $6.2 million.",
+        "links": [
+            {
+                "title": "Unit of Commodore International Sues AMP for $30 million",
+                "href": "/references/commodore-amp-lawsuit.jpg"
+            },
+            {
+                "title": "Lucas Industries Pays $6.2M for AMP Keyboard Technologies",
+                "href": "https://techmonitor.ai/technology/lucas_industries_pays_62m_for_amp_keyboard_technologies"
+            }
+        ]
     }
 ]
