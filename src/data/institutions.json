@@ -79,5 +79,21 @@
             }
         ],
         "logo": "currier.png"
+    },
+        {
+        "name": "Symbolics Lisp User's Group",
+        "address": {
+            "street": "1430 Massachusetts Ave. Suite 306-108",
+            "city": "Cambridge",
+            "state":"MA",
+            "zip":"02138"
+        },
+        "location": [
+            42.3741362,
+            -71.1213713
+        ],
+        "description": "",
+        "links": [
+        ]
     }
 ]
