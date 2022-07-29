@@ -550,5 +550,29 @@
                 "href": "https://techmonitor.ai/technology/lucas_industries_pays_62m_for_amp_keyboard_technologies"
             }
         ]
+    },
+    {
+        "name": "Symbolics",
+        "address": {
+            "street": "Eleven Cambridge Center",
+            "city": "Cambridge",
+            "state": "MA",
+            "zip": "02142"
+        },
+        "location": [
+            42.3649281,
+            -71.0910598
+        ],
+        "description": "Symbolics designed and manufactured a line of Lisp machines, single-user computers optimized to run the programming language Lisp. Symbolics also made significant advances in software technology, and offered one of the premier software development environments of the 1980s and 1990s, now sold commercially as Open Genera for Tru64 UNIX on the Hewlett-Packard (HP) Alpha. The Lisp Machine was the first commercially available workstation, although that word had not yet been coined. Symbolics has the distinction of registering the first .com domain name on March 15, 1985.",
+        "links": [
+            {
+                "title": "Symbolics Press Release Archive",
+                "href": "https://web.archive.org/web/20071014172022/http://home.rbcarleton.com/rbc/symbolics/announcements/"
+            },
+            {
+                "title": "Symbolics Lisp Machine Museum",
+                "href": "https://smbx.org/"
+            }
+        ]
     }
 ]
