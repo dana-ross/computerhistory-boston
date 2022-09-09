@@ -600,5 +600,26 @@
             }
         ],
         "logo": "Symbolics_logo_color.svg"
+    },
+    {
+        "name": "Terrapin",
+        "address": {
+            "street": "955 Massachusetts Ave 365",
+            "city": "Cambridge",
+            "state": "MA",
+            "zip": "02139"
+        },
+        "location": [
+            42.3691041,
+            -71.1120049
+        ],
+        "description": "Terrapin has been creating versions of the Logo programming language for home and educational use since 1982 and currently offers hardware and software to support the use of Logo in classrooms.",
+        "links": [
+            {
+                "title": "Terrapin: Tools for Thinking",
+                "href": "https://www.terrapinlogo.com/"
+            }
+        ],
+        "logo": "terrapin-logo.gif"
     }
 ]
