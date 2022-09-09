@@ -172,7 +172,7 @@
             42.39106,
             -71.14785
         ],
-        "description":"After the PDP-1 arrived, BBN hired two of Licklider's friends from MIT, John McCarthy and Marvin Minsky, as consultants. McCarthy had been unsuccessful in convincing MIT engineers to build time-sharing systems for computers. He had more success at BBN though, working with Ed Fredkin and Sheldon Boilen in implementing one of the first timesharing systems, the BBN Time-Sharing System. In 1962, BBN would install one such time-shared information system at Massachusetts General Hospital where doctors and nurses could create and access patients' information at various nurses' stations connected to a central computer. BBN would soon begin more research about integrating computers and medicine, hiring Bob Taylor in 1965 and MIT Lincoln Laboratory computer systems engineer Frank Heart in 1966.",
+        "description":"After the PDP-1 arrived, BBN hired two of Licklider's friends from MIT, John McCarthy and Marvin Minsky, as consultants. McCarthy had been unsuccessful in convincing MIT engineers to build time-sharing systems for computers. He had more success at BBN though, working with Ed Fredkin and Sheldon Boilen in implementing one of the first timesharing systems, the BBN Time-Sharing System. In 1962, BBN would install one such time-shared information system at Massachusetts General Hospital where doctors and nurses could create and access patients' information at various nurses' stations connected to a central computer. BBN would soon begin more research about integrating computers and medicine, hiring Bob Taylor in 1965 and MIT Lincoln Laboratory computer systems engineer Frank Heart in 1966. The Logo programming language was created in 1967 at BBN by Wally Feurzeig, Cynthia Solomon, and Seymour Papert.",
         "links": [
 
         ],
@@ -600,5 +600,26 @@
             }
         ],
         "logo": "Symbolics_logo_color.svg"
+    },
+    {
+        "name": "Terrapin",
+        "address": {
+            "street": "955 Massachusetts Ave 365",
+            "city": "Cambridge",
+            "state": "MA",
+            "zip": "02139"
+        },
+        "location": [
+            42.3691041,
+            -71.1120049
+        ],
+        "description": "Terrapin has been creating versions of the Logo programming language for home and educational use since 1982 and currently offers hardware and software to support the use of Logo in classrooms.",
+        "links": [
+            {
+                "title": "Terrapin: Tools for Thinking",
+                "href": "https://www.terrapinlogo.com/"
+            }
+        ],
+        "logo": "terrapin-logo.gif"
     }
 ]
