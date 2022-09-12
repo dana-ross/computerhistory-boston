@@ -1,5 +1,8 @@
 name: Example workflow for S3 Deploy
-on: [push]
+on:
+  push:
+    branches:
+      - main
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -7,22 +10,22 @@ jobs:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     steps:
-        - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-        - name: Install dependencies
-          run: npm install --production
+      - name: Install dependencies
+        run: npm install --production
 
-        - name: Build
-          run: npm run-script build
+      - name: Build
+        run: npm run-script build
 
-        - name: Deploy
-          uses: reggionick/s3-deploy@v3
-          with:
-            folder: build
-            bucket: ${{ secrets.AWS_S3_BUCKET }}
-            bucket-region: ${{ secrets.AWS_S3_BUCKET_REGION }}
-            dist-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
-            invalidation: /
-            delete-removed: true
-            no-cache: true
-            private: true
+      - name: Deploy
+        uses: reggionick/s3-deploy@v3
+        with:
+          folder: build
+          bucket: ${{ secrets.AWS_S3_BUCKET }}
+          bucket-region: ${{ secrets.AWS_S3_BUCKET_REGION }}
+          dist-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+          invalidation: /
+          delete-removed: true
+          no-cache: true
+          private: true
