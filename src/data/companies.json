@@ -621,5 +621,22 @@
             }
         ],
         "logo": "terrapin-logo.gif"
+    },
+    {
+        "name": "Origin Systems, Inc.",
+        "address": {
+            "street": "1545 Osgood St. #7",
+            "city": "North Andover",
+            "state": "MA",
+            "zip": "01845"
+        },
+        "location": [
+            42.730700,
+            -71.112770
+        ],
+        "description": "Origin Systems, Inc. was an American video game developer based in Austin, Texas. It was founded on March 3, 1983, by Richard Garriott and his brother Robert. Origin is best known for their groundbreaking work in multiple genres of video games, such as the Ultima and Wing Commander series. The company was purchased by Electronic Arts in 1992.",
+        "links": [
+        ],
+        "logo": ""
     }
 ]
