@@ -638,5 +638,23 @@
         "links": [
         ],
         "logo": "1280px-Origin-logo-1994.svg.png"
+    },
+        {
+        "name": "Computer Warehouse Store",
+        "address": {
+            "street": "584 Commonwealth Ave.",
+            "city": "Boston",
+            "state": "MA",
+            "zip": "02215"
+        },
+        "location": [
+            42.3487194,
+            -71.1025152
+        ],
+        "description": "Opened in 1976 by MIT graduates Sonny Monosson and Bill Grinker, this store offered hobbyist kits next to $100,000 minicomputers and professional quality terminals. The store boasted a troubleshooting & repair service. The store was the retail division of American Used Computer Corp, and boasted 7,500 square feet of retail display area.",
+        "links": [
+        ],
+        "logo": ""
     }
+
 ]
