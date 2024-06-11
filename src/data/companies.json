@@ -554,7 +554,7 @@
       "zip": "01803"
     },
     "location": [42.4959633, -71.229608],
-    "description": "Following successful contributions to the technology of the Apollo spacecraft's LEM, RCA Aerospace Systems was renamed to the RCA Automated Systems Division and refocused on creating computer and communication systems for industry. The facility was sold to Sun Microsystems in 1997 and given the address 1 Network Dr.",
+    "description": "Following successful contributions to the technology of the Apollo spacecraft's LEM, RCA Aerospace Systems was renamed to the RCA Automated Systems Division and refocused on creating and testing computer and communication systems for industry. The facility was sold to Sun Microsystems in 1997 and given the address 1 Network Dr.",
     "links": [
       {
         "title": "RCA Communications Proposal for Walt Disney World",
@@ -570,5 +570,23 @@
       }
     ],
     "logo": "RCA-logo.png"
+  },
+  {
+    "name": "Sun Microsystems",
+    "address": {
+      "street": "1 Network Dr.",
+      "city": "Burlington",
+      "state": "MA",
+      "zip": "01803"
+    },
+    "location": [42.496089, -71.230178],
+    "description": "Sun Microsystems was an American technology company that sold computers, computer components, software, and information technology services and created the Java programming language, the Solaris operating system, ZFS, the Network File System (NFS), and SPARC microprocessors. Their 'East Coast Division' was located in Lexington, MA and later moved to the former RCA Aerospace facility in Burlington.",
+    "links": [
+      {
+        "title": "Thoughts on the impending demise of Sun Microsystems",
+        "href": "https://wetmachine.com/my-thoughts-exactly/thoughts-on-the-impending-demise-of-sun-microsystems-part-one-the-death-coffee-brick/"
+      }
+    ],
+    "logo": "Sun-Logo.png"
   }
 ]
