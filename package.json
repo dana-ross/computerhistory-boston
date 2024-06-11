@@ -47,11 +47,12 @@
     ]
   },
   "devDependencies": {
-    "postcss": ">=8.4.31"
   },
   "overrides": {
     "autoprefixer": "10.4.5",
     "terser": ">=5.14.2",
-    "nth-check": ">=2.0.1"
+    "nth-check": ">=2.0.1",
+    "postcss": ">=8.4.31"
+
   }
 }
