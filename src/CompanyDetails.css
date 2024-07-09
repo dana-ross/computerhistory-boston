@@ -16,14 +16,3 @@ address {
 .company-container .logo {
   float: right;
 }
-
-.return,
-.return:visited {
-  background-color: #f00;
-  padding: 0.5rem 0.8rem;
-  border-radius: 0.6rem;
-  color: #fff;
-  text-decoration: none;
-  margin-top: 1rem;
-  display: inline-block;
-}

@@ -9,7 +9,7 @@ import FourOhFour from "./404";
 import Leaflet, { LatLngTuple } from "leaflet";
 import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import { setMap } from "./MapContext";
-import React from "react";
+import ReturnToMap from "./ReturnToMap";
 
 function updateMapContext(map: Leaflet.Map) {
   setMap(map);
@@ -60,11 +60,7 @@ export default function CompanyDetails() {
               {companyRecords[0].linksUnorderedList()}
             </div>
           )}
-          <p>
-            <a href="/" className="return">
-              ⇦ Return to the Map
-            </a>
-          </p>
+          <ReturnToMap />
         </main>
         <Footer></Footer>
       </div>
