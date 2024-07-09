@@ -2,17 +2,17 @@ import { Marker, Popup } from "react-leaflet";
 import "./Map.css";
 import Company from "./Company";
 import { createRef } from "react";
-import { addMarker} from "./MapContext";
+import { addMarker } from "./MapContext";
 import Leaflet from "leaflet";
 import FullAddress from "./FullAddress";
 import LandmarkLogo from "./LandmarkLogo";
 
 interface CompanyMarkerProps {
   company: Company;
+  interactive?: boolean;
 }
 
 export default function CompanyMarker({ company }: CompanyMarkerProps) {
-
   const ref = createRef<Leaflet.Marker>();
   addMarker(ref);
 
@@ -23,22 +23,11 @@ export default function CompanyMarker({ company }: CompanyMarkerProps) {
         <h2>{company.name}</h2>
         <FullAddress address={company.address}></FullAddress>
         <p>{company.description}</p>
-        {!!company.links.length && (
-          <div className="company-links">
-            <h3>Links:</h3>
-            <ul>
-              {company.links.map((link, index) => {
-                return (
-                  <li key={link.key()}>
-                    <a href={link.href} target="_blank" rel="noreferrer">
-                      {link.title}
-                    </a>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-        )}
+        <p>
+          <a href={`/company/${company.slug}`}>
+            Read more about {company.name}
+          </a>
+        </p>
       </Popup>
     </Marker>
   );

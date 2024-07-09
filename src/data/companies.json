@@ -1,5 +1,6 @@
 [
   {
+    "slug": "infocom",
     "name": "Infocom",
     "address": {
       "street": "125 Cambridge Park Drive",
@@ -13,6 +14,7 @@
     "logo": "Infocom_Logo.svg"
   },
   {
+    "slug": "psygnosis-ltd",
     "name": "Psygnosis, Ltd.",
     "address": {
       "street": "675 Massachusetts Ave.",
@@ -26,6 +28,7 @@
     "logo": "Psygnosis-text.png"
   },
   {
+    "slug": "psygnosis-ltd",
     "name": "Psygnosis, Ltd.",
     "address": {
       "street": "29 St. Mary's Court",
@@ -39,6 +42,7 @@
     "logo": "Psygnosis-text.png"
   },
   {
+    "slug": "apollo-computer-inc",
     "name": "Apollo Computer, Inc.",
     "address": {
       "street": "19 Alpha Road",
@@ -57,6 +61,7 @@
     "logo": "Apollo_Computer_logo.svg"
   },
   {
+    "slug": "digital-equipment-corporation",
     "name": "Digital Equipment Corporation",
     "address": {
       "street": "40 Old Bolton Rd.",
@@ -75,6 +80,7 @@
     "logo": "Digital_Equipment_Corporation_1993_logo.svg"
   },
   {
+    "slug": "data-general",
     "name": "Data General",
     "address": {
       "street": "4400 Computer Drive",
@@ -93,6 +99,7 @@
     "logo": "Data_General_logo.svg"
   },
   {
+    "slug": "wang-laboratories",
     "name": "Wang Laboratories (1976–1997)",
     "address": {
       "street": "900 Chelmsford Avenue",
@@ -115,6 +122,7 @@
     "logo": "Wang_Laboratories_wordmark.svg"
   },
   {
+    "slug": "wang-laboratories",
     "name": "Wang Laboratories (1963–1976)",
     "address": {
       "street": "836 North St.",
@@ -137,6 +145,7 @@
     "logo": "Wang_Laboratories_wordmark.svg"
   },
   {
+    "slug": "bolt-beranek-and-newman-inc",
     "name": "Bolt Beranek and Newman Inc.",
     "address": {
       "street": "50 Moulton Street",
@@ -150,6 +159,7 @@
     "logo": "bbn-logo.jpg"
   },
   {
+    "slug": "analog-devices-inc",
     "name": "Analog Devices, Inc.",
     "address": {
       "street": "21 Osborne St",
@@ -168,6 +178,7 @@
     "logo": "analog-devices-logo-svg-vector.svg"
   },
   {
+    "slug": "nexus-research-laboratory-inc",
     "name": "Nexus Research Laboratory, Inc.",
     "address": {
       "street": "480 Neponset Street",
@@ -181,6 +192,7 @@
     "logo": "Nexus Research Laboratory.png"
   },
   {
+    "slug": "george-a-philbrick-researches",
     "name": "George A Philbrick Researches (GAP/R) (1956-1958)",
     "address": {
       "street": "230 Congress Street",
@@ -199,6 +211,7 @@
     "logo": "Philbrick Researches.jpg"
   },
   {
+    "slug": "george-a-philbrick-researches",
     "name": "George A Philbrick Researches (GAP/R) (1958–1963)",
     "address": {
       "street": "285 Columbus Avenue",
@@ -217,6 +230,7 @@
     "logo": "Philbrick Researches.jpg"
   },
   {
+    "slug": "george-a-philbrick-researches",
     "name": "George A Philbrick Researches (GAP/R) (1963–1968)",
     "address": {
       "street": "127 Clarendon Street",
@@ -235,6 +249,7 @@
     "logo": "Philbrick Researches.jpg"
   },
   {
+    "slug": "george-a-philbrick-researches",
     "name": "George A Philbrick Researches (GAP/R) (1968–)",
     "address": {
       "street": "40 Allied Dr",
@@ -253,6 +268,7 @@
     "logo": "Philbrick Researches.jpg"
   },
   {
+    "slug": "gca-corp",
     "name": "GCA Corp.",
     "address": {
       "street": "7 Shattuck Road",
@@ -271,6 +287,7 @@
     "logo": "GCA.png"
   },
   {
+    "slug": "gca-corp",
     "name": "GCA Corp.",
     "address": {
       "street": "174 Middlesex Turnpike",
@@ -289,6 +306,7 @@
     "logo": "GCA.png"
   },
   {
+    "slug": "transistor-specialtys-inc",
     "name": "Transistor Specialtys, Inc.",
     "address": {
       "street": "5 Southside Rd.",
@@ -302,6 +320,7 @@
     "logo": ""
   },
   {
+    "slug": "sylvania-semiconductor-division",
     "name": "Sylvania Semiconductor Division",
     "address": {
       "street": "100 Sylvan Road",
@@ -315,6 +334,7 @@
     "logo": "SylvaniaElectricLOGO.png"
   },
   {
+    "slug": "transitron-electronic-corporation",
     "name": "Transitron Electronic Corporation",
     "address": {
       "street": "168 Albion St.",
@@ -341,6 +361,7 @@
     "logo": "TransitronMark.png"
   },
   {
+    "slug": "transitron-electronic-corp",
     "name": "Transitron Electronic Corp",
     "address": {
       "street": "403-407 Main St.",
@@ -367,6 +388,7 @@
     "logo": "TransitronMark.png"
   },
   {
+    "slug": "the-tech-computer-store",
     "name": "The Tech Computer Store",
     "address": {
       "street": "199 Alewife Brook Parkway",
@@ -380,6 +402,7 @@
     "logo": ""
   },
   {
+    "slug": "kendall-square-research",
     "name": "Kendall Square Research (late 1980s–1994)",
     "address": {
       "street": "170 Tracer Lane",
@@ -398,6 +421,7 @@
     "logo": ""
   },
   {
+    "slug": "thinking-machines-corporation",
     "name": "Thinking Machines Corporation (1983–1984)",
     "address": {
       "street": "577 Beaver St.",
@@ -411,6 +435,7 @@
     "logo": "Thinking_Machines_Corporation_logo.png"
   },
   {
+    "slug": "thinking-machines-corporation",
     "name": "Thinking Machines Corporation (1984–1994)",
     "address": {
       "street": "245 First Street",
@@ -424,6 +449,7 @@
     "logo": "Thinking_Machines_Corporation_logo.png"
   },
   {
+    "slug": "prime-computers",
     "name": "Prime Computers",
     "address": {
       "street": "1 Prime Park Way",
@@ -437,6 +463,7 @@
     "logo": "Prime_computer_logo.jpg"
   },
   {
+    "slug": "amp-keyboard-technologies-inc",
     "name": "AMP Keyboard Technologies, Inc.",
     "address": {
       "street": "84 Dragon Court",
@@ -458,6 +485,7 @@
     ]
   },
   {
+    "slug": "symbolics",
     "name": "Symbolics",
     "address": {
       "street": "Eleven Cambridge Center",
@@ -480,6 +508,7 @@
     "logo": "Symbolics_logo_color.svg"
   },
   {
+    "slug": "symbolics",
     "name": "Symbolics",
     "address": {
       "street": "555 Virginia Road, Building 6",
@@ -502,6 +531,7 @@
     "logo": "Symbolics_logo_color.svg"
   },
   {
+    "slug": "terrapin",
     "name": "Terrapin",
     "address": {
       "street": "955 Massachusetts Ave 365",
@@ -520,6 +550,7 @@
     "logo": "terrapin-logo.gif"
   },
   {
+    "slug": "origin-systems-inc",
     "name": "Origin Systems, Inc.",
     "address": {
       "street": "1545 Osgood St. #7",
@@ -533,6 +564,7 @@
     "logo": "1280px-Origin-logo-1994.svg.png"
   },
   {
+    "slug": "computer-warehouse-store",
     "name": "Computer Warehouse Store",
     "address": {
       "street": "584 Commonwealth Ave.",
@@ -546,6 +578,7 @@
     "logo": ""
   },
   {
+    "slug": "rca-automated-systems-division",
     "name": "RCA Automated Systems Division",
     "address": {
       "street": "1 Network Dr.",
@@ -572,6 +605,7 @@
     "logo": "RCA-logo.png"
   },
   {
+    "slug": "sun-microsystems",
     "name": "Sun Microsystems",
     "address": {
       "street": "1 Network Dr.",
@@ -590,6 +624,7 @@
     "logo": "Sun-Logo.png"
   },
   {
+    "slug": "kronos-incorporated",
     "name": "Kronos, Incorporated",
     "address": {
       "street": "297 Billerica Rd",

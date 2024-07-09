@@ -1,0 +1,18 @@
+.company-container main > * {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+address {
+  margin-bottom: 1rem;
+}
+.company-container .leaflet-container {
+  width: 60vw;
+  height: 60vw;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.company-container .logo {
+  float: right;
+}
