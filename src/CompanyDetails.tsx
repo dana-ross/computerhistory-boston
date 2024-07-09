@@ -61,7 +61,9 @@ export default function CompanyDetails() {
             </div>
           )}
           <p>
-            <a href="/">⇦ Return to the Map</a>
+            <a href="/" className="return">
+              ⇦ Return to the Map
+            </a>
           </p>
         </main>
         <Footer></Footer>

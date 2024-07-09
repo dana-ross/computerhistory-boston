@@ -8,6 +8,7 @@ header {
   width: 100%;
   display: block;
   margin-bottom: 2rem;
+  border-bottom: 1px solid #888;
 }
 
 header.floating {
@@ -16,6 +17,7 @@ header.floating {
   left: 0;
   z-index: 2000;
   box-shadow: 2px 2px 4px #333;
+  border-bottom: none;
 }
 
 header > * {
