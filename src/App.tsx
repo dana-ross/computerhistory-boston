@@ -1,24 +1,22 @@
-import Map from "./Map";
-import Header from "./Header";
+import Home from "./Home";
 import fixLeafletIcons from "./fixLeafletIcons";
 import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import CompanyDetails from "./CompanyDetails";
 import ConfigContext from "./ConfigContext";
-import MapContext from "./MapContext";
-import Footer from "./Footer";
 
 fixLeafletIcons();
 
 function App() {
   return (
-    <div className="App">
-      <ConfigContext>
-        <MapContext>
-          <Map></Map>
-          <Header></Header>
-          <Footer></Footer>
-        </MapContext>
-      </ConfigContext>
-    </div>
+    <ConfigContext>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/company/:slug" element={<CompanyDetails />} />
+        </Routes>
+      </BrowserRouter>
+    </ConfigContext>
   );
 }
 

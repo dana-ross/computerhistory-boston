@@ -1,95 +1,87 @@
 [
-    {
-        "type": "Landmark",
-        "name": "The Computer Museum",
-        "address": {
-            "street": "300 Congress Street",
-            "city": "Boston",
-            "state": "MA",
-            "zip": "02210"
-        },
-        "location": [
-            42.351845,
-            -71.04989
-        ],
-        "description": "The Computer Museum was a Boston, Massachusetts, museum that opened in 1979 and operated in three locations until 1999. It was once referred to as TCM and is sometimes called the Boston Computer Museum. When the Museum closed in 2000, much of its collection was sent to the Computer History Museum in California.",
-        "links": [
-            {
-                "title": "The Computer Museum",
-                "href": "http://tcm.computerhistory.org/"
-            },
-            {
-                "title": "Opening press kit",
-                "href": "http://tcm.computerhistory.org/OpeningPressKit.pdf"
-            },
-            {
-                "title": "The Computer History Museum (Mountain View, CA)",
-                "href": "https://computerhistory.org/"
-            }
-        ],
-        "logo": "tcmlogosm.jpg"
+  {
+    "type": "Landmark",
+    "slug": "the-computer-museum",
+    "name": "The Computer Museum",
+    "address": {
+      "street": "300 Congress Street",
+      "city": "Boston",
+      "state": "MA",
+      "zip": "02210"
     },
-    {
-        "type": "Landmark",
-        "name": "Birthplace of the Telephone",
-        "address": {
-            "street": "1 Center Plaza",
-            "city": "Boston",
-            "state":"MA",
-            "zip": "02108"
-        },
-        "location": [
-            42.35913,
-            -71.05983
-        ],
-        "description": "On June 2, 1875, Alexander Graham Bell and Thomas A. Watson first transmitted sound over wires. This successful experiment was completed in a fifth floor garret at what was then 109 Court Street and marked the beginning of world-wide telephone service.",
-        "links": [
-            {
-                "title": "Read the Plaque",
-                "href": "https://readtheplaque.com/plaque/the-first-telephone"
-            }
-        ]
+    "location": [42.351845, -71.04989],
+    "description": "The Computer Museum was a Boston, Massachusetts, museum that opened in 1979 and operated in three locations until 1999. It was once referred to as TCM and is sometimes called the Boston Computer Museum. When the Museum closed in 2000, much of its collection was sent to the Computer History Museum in California.",
+    "links": [
+      {
+        "title": "The Computer Museum",
+        "href": "http://tcm.computerhistory.org/"
+      },
+      {
+        "title": "Opening press kit",
+        "href": "http://tcm.computerhistory.org/OpeningPressKit.pdf"
+      },
+      {
+        "title": "The Computer History Museum (Mountain View, CA)",
+        "href": "https://computerhistory.org/"
+      }
+    ],
+    "logo": "tcmlogosm.jpg"
+  },
+  {
+    "type": "Landmark",
+    "slug": "birthplace-of-the-telephone",
+    "name": "Birthplace of the Telephone",
+    "address": {
+      "street": "1 Center Plaza",
+      "city": "Boston",
+      "state": "MA",
+      "zip": "02108"
     },
-    {
-        "type": "Landmark",
-        "name": "First Two-Way Long Distance Telephone Call",
-        "address": {
-            "street": "700 Main St.",
-            "city": "Cambridge",
-            "state":"MA",
-            "zip": "02139"
-        },
-        "location": [
-            42.3623,
-            -71.0950
-        ],
-        "description": "Birthplace of the Telephone. Here, on June 2, 1875, Alexander Graham Bell and Thomas A. Watson first transmitted sound over wires. This successful experiment was completed in a fifth floor garret at what was then 109 Court Street and marked the beginning of world-wide telephone service.",
-        "links": [
-            {
-                "title": "Site of the First Transcontinental Call",
-                "href": "https://www.atlasobscura.com/places/site-of-first-long-distance-phone-call"
-            }
-        ]
+    "location": [42.35913, -71.05983],
+    "description": "On June 2, 1875, Alexander Graham Bell and Thomas A. Watson first transmitted sound over wires. This successful experiment was completed in a fifth floor garret at what was then 109 Court Street and marked the beginning of world-wide telephone service.",
+    "links": [
+      {
+        "title": "Read the Plaque",
+        "href": "https://readtheplaque.com/plaque/the-first-telephone"
+      }
+    ]
+  },
+  {
+    "type": "Landmark",
+    "slug": "first-two-way-long-distance-telephone-call",
+    "name": "First Two-Way Long Distance Telephone Call",
+    "address": {
+      "street": "700 Main St.",
+      "city": "Cambridge",
+      "state": "MA",
+      "zip": "02139"
     },
-    {
-        "name": "Out of Town News",
-        "address": {
-            "street": "18 Brattle St.",
-            "city": "Cambridge",
-            "state":"MA",
-            "zip": "02138"
-        },
-        "location":[
-            42.373393,
-            -71.121119
-        ],
-        "description": "Opened in 1955, Out of Town News served the Harvard community until its closing in 2019. It's here that a young Paul Allen discovered the infamous Altair issue of Popular Electronics on the newsstand, which inspired him and Bill Gates to create an implementation of the BASIC programming language for the fledgling home computer.",
-        "links": [
-            {
-                "title": "Out of Town out of time",
-                "href": "https://news.harvard.edu/gazette/story/2019/11/out-of-town-out-of-time-iconic-harvard-sq-newsstand-sells-last-edition/"
-            }
-        ],
-        "logo": ""
-    }
+    "location": [42.3623, -71.095],
+    "description": "Birthplace of the Telephone. Here, on June 2, 1875, Alexander Graham Bell and Thomas A. Watson first transmitted sound over wires. This successful experiment was completed in a fifth floor garret at what was then 109 Court Street and marked the beginning of world-wide telephone service.",
+    "links": [
+      {
+        "title": "Site of the First Transcontinental Call",
+        "href": "https://www.atlasobscura.com/places/site-of-first-long-distance-phone-call"
+      }
+    ]
+  },
+  {
+    "slug": "out-of-town-news",
+    "name": "Out of Town News",
+    "address": {
+      "street": "18 Brattle St.",
+      "city": "Cambridge",
+      "state": "MA",
+      "zip": "02138"
+    },
+    "location": [42.373393, -71.121119],
+    "description": "Opened in 1955, Out of Town News served the Harvard community until its closing in 2019. It's here that a young Paul Allen discovered the infamous Altair issue of Popular Electronics on the newsstand, which inspired him and Bill Gates to create an implementation of the BASIC programming language for the fledgling home computer.",
+    "links": [
+      {
+        "title": "Out of Town out of time",
+        "href": "https://news.harvard.edu/gazette/story/2019/11/out-of-town-out-of-time-iconic-harvard-sq-newsstand-sells-last-edition/"
+      }
+    ],
+    "logo": ""
+  }
 ]

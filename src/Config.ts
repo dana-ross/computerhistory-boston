@@ -18,35 +18,38 @@ export default class Config {
     this.center = [42.361145, -71.057083];
     this.defaultZoom = 10;
 
-    companiesRaw.forEach((rawCompany : any) => {
+    companiesRaw.forEach((rawCompany: any) => {
       this.companies.push(
         new Company(
+          rawCompany.slug,
           rawCompany.name,
           rawCompany.address,
           rawCompany.location as LatLngTuple,
           rawCompany.description,
           rawCompany.links.map((link: any) => new Link(link.title, link.href)),
-          rawCompany.logo ? rawCompany.logo : ''
+          rawCompany.logo ? rawCompany.logo : ""
         )
       );
     });
 
-    landmarksRaw.forEach((rawLandmark : any) => {
+    landmarksRaw.forEach((rawLandmark: any) => {
       this.landmarks.push(
         new Landmark(
+          rawLandmark.slug,
           rawLandmark.name,
           rawLandmark.address,
           rawLandmark.location as LatLngTuple,
           rawLandmark.description,
           rawLandmark.links.map((link: any) => new Link(link.title, link.href)),
-          rawLandmark.logo ? rawLandmark.logo : ''
+          rawLandmark.logo ? rawLandmark.logo : ""
         )
       );
     });
 
-    institutionsRaw.forEach((rawInstitution : any) => {
+    institutionsRaw.forEach((rawInstitution: any) => {
       this.institutions.push(
         new Landmark(
+          rawInstitution.slug,
           rawInstitution.name,
           rawInstitution.address,
           rawInstitution.location as LatLngTuple,
@@ -54,7 +57,7 @@ export default class Config {
           rawInstitution.links.map(
             (link: any) => new Link(link.title, link.href)
           ),
-          rawInstitution.logo ? rawInstitution.logo : ''
+          rawInstitution.logo ? rawInstitution.logo : ""
         )
       );
     });

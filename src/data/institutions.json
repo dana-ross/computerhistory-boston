@@ -1,99 +1,86 @@
 [
-    {
-        "name": "MIT Lincoln Lab",
-        "address": {
-            "street": "244 Wood Street",
-            "city": "Lexington",
-            "state": "MA",
-            "zip": "02421"
-        },
-        "location" : [
-            42.45855,
-            -71.2635
-        ],
-        "description": "The MIT Lincoln Laboratory, located in Lexington, Massachusetts, is a United States Department of Defense federally funded research and development center chartered to apply advanced technology to problems of national security. Research and development activities focus on long-term technology development as well as rapid system prototyping and demonstration. Its core competencies are in sensors, integrated sensing, signal processing for information extraction, decision-making support, and communications. These efforts are aligned within ten mission areas. The laboratory also maintains several field sites around the world.",
-        "links": [
-            {
-                "title": "MIT Lincoln Lab",
-                "href": "https://www.ll.mit.edu/"
-            }
-        ],
-        "logo": "MIT_logo.svg"
+  {
+    "slug": "mit-lincoln-lab",
+    "name": "MIT Lincoln Lab",
+    "address": {
+      "street": "244 Wood Street",
+      "city": "Lexington",
+      "state": "MA",
+      "zip": "02421"
     },
-    {
-        "name": "MIT Barta Building",
-        "address": {
-            "street": "211 Massachusetts Avenue",
-            "city": "Cambridge",
-            "state": "MA",
-            "zip": "02139"
-        },
-        "location": [
-            42.36131,
-            -71.09681
-        ],
-        "description": "Within the Barta Building, occupying some 2500 square feet of floor space, was a monstrous, 9-ton Rube Goldberg-looking machine called the Whirlwind computer (1948-1959). Although the exact eureka moment of Whirlwind’s first digital ping is shrouded in a bit of mystery, by the fall of 1949, it was definitely purring away, solving simple equations in real time and displaying answers on an oscilloscope. It was a first-ever for real-time digital computing.",
-        "links": [
-            {
-                "title": "The Most Important Building in the History of Computing",
-                "href": "http://brightboysmedia.com/barta-building-2/"
-            }
-        ],
-        "logo": "MIT_logo.svg"
+    "location": [42.45855, -71.2635],
+    "description": "The MIT Lincoln Laboratory, located in Lexington, Massachusetts, is a United States Department of Defense federally funded research and development center chartered to apply advanced technology to problems of national security. Research and development activities focus on long-term technology development as well as rapid system prototyping and demonstration. Its core competencies are in sensors, integrated sensing, signal processing for information extraction, decision-making support, and communications. These efforts are aligned within ten mission areas. The laboratory also maintains several field sites around the world.",
+    "links": [
+      {
+        "title": "MIT Lincoln Lab",
+        "href": "https://www.ll.mit.edu/"
+      }
+    ],
+    "logo": "MIT_logo.svg"
+  },
+  {
+    "slug": "mit-barta-building",
+    "name": "MIT Barta Building",
+    "address": {
+      "street": "211 Massachusetts Avenue",
+      "city": "Cambridge",
+      "state": "MA",
+      "zip": "02139"
     },
-    {
-        "name": "Harvard University Cruft Laboratory",
-        "address": {
-            "street": "19 Oxford St",
-            "city": "Cambridge",
-            "state":"MA",
-            "zip": "02138"
-        },
-        "location": [
-            42.3777086,
-            -71.1191243
-        ],
-        "description": "The original Mark I weighed five tons and was 50 feet long. It was the brainchild of a Harvard graduate student, Howard Aiken, who designed it in 1937, building on decades-old inspiration from British engineer and inventor Charles Babbage. Aiken shopped the idea around until IBM took interest. The machine itself, developed in collaboration with company scientists, was delivered to Harvard’s Cruft Lab in 1944, in time to lend a hand in the nation’s World War II effort, including the development of the atom bomb, missile trajectories, and the design of radar facilities.",
-        "links": [
-
-        ],
-        "logo": "Harvard_University_logo.svg"
+    "location": [42.36131, -71.09681],
+    "description": "Within the Barta Building, occupying some 2500 square feet of floor space, was a monstrous, 9-ton Rube Goldberg-looking machine called the Whirlwind computer (1948-1959). Although the exact eureka moment of Whirlwind’s first digital ping is shrouded in a bit of mystery, by the fall of 1949, it was definitely purring away, solving simple equations in real time and displaying answers on an oscilloscope. It was a first-ever for real-time digital computing.",
+    "links": [
+      {
+        "title": "The Most Important Building in the History of Computing",
+        "href": "http://brightboysmedia.com/barta-building-2/"
+      }
+    ],
+    "logo": "MIT_logo.svg"
+  },
+  {
+    "slug": "harvard-university-cruft-laboratory",
+    "name": "Harvard University Cruft Laboratory",
+    "address": {
+      "street": "19 Oxford St",
+      "city": "Cambridge",
+      "state": "MA",
+      "zip": "02138"
     },
-    {
-        "name": "Currier House",
-        "address": {
-            "street": "64 Linnaean St",
-            "city": "Cambridge",
-            "state":"MA",
-            "zip":"02138"
-        },
-        "location": [
-            42.3818119,
-            -71.1277265
-        ],
-        "description": "Bill Gates and Paul Allen roomed together in Currier House during their sophomore year at Harvard. Their earliest collaborations, including Altair BASIC, happened here.",
-        "links": [
-            {
-                "title": "Dawn of a Revolution",
-                "href": "https://news.harvard.edu/gazette/story/2013/09/dawn-of-a-revolution/"
-            }
-        ],
-        "logo": "currier.png"
+    "location": [42.3777086, -71.1191243],
+    "description": "The original Mark I weighed five tons and was 50 feet long. It was the brainchild of a Harvard graduate student, Howard Aiken, who designed it in 1937, building on decades-old inspiration from British engineer and inventor Charles Babbage. Aiken shopped the idea around until IBM took interest. The machine itself, developed in collaboration with company scientists, was delivered to Harvard’s Cruft Lab in 1944, in time to lend a hand in the nation’s World War II effort, including the development of the atom bomb, missile trajectories, and the design of radar facilities.",
+    "links": [],
+    "logo": "Harvard_University_logo.svg"
+  },
+  {
+    "slug": "currier-house",
+    "name": "Currier House",
+    "address": {
+      "street": "64 Linnaean St",
+      "city": "Cambridge",
+      "state": "MA",
+      "zip": "02138"
     },
-        {
-        "name": "Symbolics Lisp User's Group",
-        "address": {
-            "street": "1430 Massachusetts Ave. Suite 306-108",
-            "city": "Cambridge",
-            "state":"MA",
-            "zip":"02138"
-        },
-        "location": [
-            42.3741362,
-            -71.1213713
-        ],
-        "description": "",
-        "links": [
-        ]
-    }
+    "location": [42.3818119, -71.1277265],
+    "description": "Bill Gates and Paul Allen roomed together in Currier House during their sophomore year at Harvard. Their earliest collaborations, including Altair BASIC, happened here.",
+    "links": [
+      {
+        "title": "Dawn of a Revolution",
+        "href": "https://news.harvard.edu/gazette/story/2013/09/dawn-of-a-revolution/"
+      }
+    ],
+    "logo": "currier.png"
+  },
+  {
+    "slug": "symbolics-lisp-users-group",
+    "name": "Symbolics Lisp User's Group",
+    "address": {
+      "street": "1430 Massachusetts Ave. Suite 306-108",
+      "city": "Cambridge",
+      "state": "MA",
+      "zip": "02138"
+    },
+    "location": [42.3741362, -71.1213713],
+    "description": "",
+    "links": []
+  }
 ]
