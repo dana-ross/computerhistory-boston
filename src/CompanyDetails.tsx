@@ -27,41 +27,46 @@ export default function CompanyDetails() {
     return (
       <div className="company-container">
         <Header></Header>
-        <main>
-          <LandmarkLogo landmark={companyRecords[0]}></LandmarkLogo>
-          <h1>{companyRecords[0].name}</h1>
-          <p>{companyRecords[0].description}</p>
-          <h2>Known Locations</h2>
-          {companyRecords.map((company) => {
-            return (
-              <div>
-                <address>
-                  {company.address.street}
-                  <br />
-                  {company.address.city}, {company.address.state}{" "}
-                  {company.address.zip}
-                </address>
-                <div className="map">
-                  <MapContainer
-                    center={company.location as LatLngTuple}
-                    zoom={12}
-                    whenCreated={updateMapContext}
-                  >
-                    <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                    <Marker position={company.location} />
-                  </MapContainer>
+        <div>
+          <main>
+            <LandmarkLogo landmark={companyRecords[0]}></LandmarkLogo>
+            <h1>{companyRecords[0].name}</h1>
+            <p>{companyRecords[0].description}</p>
+            <h2>Known Locations</h2>
+            {companyRecords.map((company) => {
+              return (
+                <div>
+                  <address>
+                    {company.address.street}
+                    <br />
+                    {company.address.city}, {company.address.state}{" "}
+                    {company.address.zip}
+                  </address>
+                  <div className="map">
+                    <MapContainer
+                      center={company.location as LatLngTuple}
+                      zoom={12}
+                      whenCreated={updateMapContext}
+                    >
+                      <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                      <Marker position={company.location} />
+                    </MapContainer>
+                  </div>
                 </div>
+              );
+            })}
+          </main>
+          <aside>
+            <LandmarkLogo landmark={companyRecords[0]}></LandmarkLogo>
+            {!!companyRecords[0] && !!companyRecords[0].links.length && (
+              <div className="company-links">
+                <h3>Links:</h3>
+                {companyRecords[0].linksUnorderedList()}
               </div>
-            );
-          })}
-          {!!companyRecords[0] && !!companyRecords[0].links.length && (
-            <div className="company-links">
-              <h3>Links:</h3>
-              {companyRecords[0].linksUnorderedList()}
-            </div>
-          )}
-          <ReturnToMap />
-        </main>
+            )}
+          </aside>
+        </div>
+        <ReturnToMap />
         <Footer></Footer>
       </div>
     );
