@@ -7,7 +7,7 @@ let contents = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.
 companies
   .map((company) => {
     return company.slug
-      ? "https://www.computerhistory.boston/company/" + company.slug
+      ? "https://www.computerhistory.boston/company/" + company.slug + '/'
       : "";
   })
 
