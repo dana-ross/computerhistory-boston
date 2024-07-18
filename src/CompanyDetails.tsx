@@ -10,6 +10,7 @@ import Leaflet, { LatLngTuple } from "leaflet";
 import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import { setMap } from "./MapContext";
 import ReturnToMap from "./ReturnToMap";
+import { Helmet } from "react-helmet";
 
 function updateMapContext(map: Leaflet.Map) {
   setMap(map);
@@ -67,6 +68,14 @@ export default function CompanyDetails() {
           </aside>
         </div>
         <ReturnToMap />
+        <Helmet
+          title={` ${companyRecords[0].name} : Boston's Computer History`}
+        >
+          <link
+            rel="canonical"
+            href={`https://www.computerhistory.boston/company/${companyRecords[0].slug}/`}
+          />
+        </Helmet>
         <Footer></Footer>
       </div>
     );
