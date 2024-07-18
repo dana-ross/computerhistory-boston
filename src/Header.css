@@ -4,7 +4,7 @@
 }
 
 header {
-  background-color: #fff;
+  background-color: #72ade1;
   width: 100%;
   display: block;
   margin-bottom: 2rem;
@@ -16,7 +16,7 @@ header.floating {
   top: 0;
   left: 0;
   z-index: 2000;
-  box-shadow: 2px 2px 4px #333;
+  box-shadow: 0px 2px 4px #333;
   border-bottom: none;
 }
 
@@ -34,6 +34,8 @@ a:visited {
 header h1 {
   font-family: "Data Control", sans-serif;
   margin-bottom: 0.25rem;
+  color: #fff;
+  text-shadow: 1px 1px 3px #116;
 }
 
 .leaflet-control-container {
