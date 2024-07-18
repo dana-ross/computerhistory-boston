@@ -6,7 +6,6 @@ import Fuse from "fuse.js";
 import Landmark from "./Landmark";
 import { getMap, getMarkers } from "./MapContext";
 import { LatLngTuple } from "leaflet";
-import LandmarkLogo from "./LandmarkLogo";
 
 type FuseResult<T> = Fuse.FuseResult<T>;
 
