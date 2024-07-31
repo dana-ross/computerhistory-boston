@@ -14,7 +14,7 @@ The data files can be found in [`src/data`](https://github.com/dana-ross/compute
   ```json
   {
     "slug": "wang-laboratories",
-    "name": "Wang Laboratories (1976–1997)",
+    "name": "Wang Laboratories",
     "address": {
       "street": "900 Chelmsford Avenue",
       "city": "Lowell",
