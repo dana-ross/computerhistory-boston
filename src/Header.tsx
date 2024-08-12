@@ -1,4 +1,4 @@
-import { PropsWithChildren, ReactChild, ReactChildren } from "react";
+import { PropsWithChildren } from "react";
 import "./Header.css";
 
 interface HeaderProps {
