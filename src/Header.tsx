@@ -1,18 +1,17 @@
+import { PropsWithChildren, ReactChild, ReactChildren } from "react";
 import "./Header.css";
-import Search from "./Search";
 
 interface HeaderProps {
   className?: string;
-  children?: Node;
 }
 
-function Header(props: HeaderProps) {
+function Header(props: PropsWithChildren<HeaderProps>) {
   return (
     <header id="about" className={props.className || ""}>
       <a href="/">
         <h1>Boston's Computer History</h1>
       </a>
-      <Search></Search>
+      {props.children}
     </header>
   );
 }
