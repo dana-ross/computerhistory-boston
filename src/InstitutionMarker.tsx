@@ -2,7 +2,7 @@ import { Marker, Popup } from "react-leaflet";
 import "./Map.css";
 import Institution from "./Institution";
 import { createRef } from "react";
-import { addMarker} from "./MapContext";
+import { addMarker } from "./MapContext";
 import Leaflet from "leaflet";
 import FullAddress from "./FullAddress";
 import LandmarkLogo from "./LandmarkLogo";
@@ -11,13 +11,15 @@ interface InstitutionMarkerProps {
   institution: Institution;
 }
 
-export default function InstitutionMarker({ institution }: InstitutionMarkerProps) {
-
+export default function InstitutionMarker({
+  institution,
+}: InstitutionMarkerProps) {
   const ref = createRef<Leaflet.Marker>();
   addMarker(ref);
+  const institutionTitle = `${institution.name} in ${institution.address.city}`;
 
   return (
-    <Marker position={institution.location} ref={ref}>
+    <Marker position={institution.location} ref={ref} alt={institutionTitle}>
       <Popup>
         <LandmarkLogo landmark={institution}></LandmarkLogo>
         <h2>{institution.name}</h2>
@@ -30,7 +32,9 @@ export default function InstitutionMarker({ institution }: InstitutionMarkerProp
               {institution.links.map((link, index) => {
                 return (
                   <li key={link.key()}>
-                    <a href={link.href} target="_blank" rel="noreferrer">{link.title}</a>
+                    <a href={link.href} target="_blank" rel="noreferrer">
+                      {link.title}
+                    </a>
                   </li>
                 );
               })}

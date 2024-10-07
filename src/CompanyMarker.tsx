@@ -16,8 +16,10 @@ export default function CompanyMarker({ company }: CompanyMarkerProps) {
   const ref = createRef<Leaflet.Marker>();
   addMarker(ref);
 
+  const markerTitle = `${company.name} in ${company.address.city}`;
+
   return (
-    <Marker position={company.location} ref={ref}>
+    <Marker position={company.location} ref={ref} alt={markerTitle}>
       <Popup>
         <LandmarkLogo landmark={company}></LandmarkLogo>
         <h2>{company.name}</h2>
