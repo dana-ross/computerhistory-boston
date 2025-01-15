@@ -32,10 +32,7 @@ a:visited {
 }
 
 header h1 {
-  font-family: "Data Control", sans-serif;
   margin-bottom: 0.25rem;
-  color: #fff;
-  text-shadow: 1px 1px 3px #116;
 }
 
 .leaflet-control-container {

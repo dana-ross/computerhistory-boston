@@ -1,13 +1,12 @@
 import "./Footer.css";
 
 interface FooterProps {
-  className?: string;
   children?: Node;
 }
 
 function Footer(props: FooterProps) {
   return (
-    <footer className={props.className || ""}>
+    <footer className="floating text-md text-white [text-shadow:_1px_1px_3px_#116]">
       <p>
         Made with ❤️ in Boston by{" "}
         <a href="https://danaross.dev" target="_blank" rel="noreferrer">

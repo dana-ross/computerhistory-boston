@@ -1,6 +1,6 @@
 import Home from "./Home";
 import fixLeafletIcons from "./fixLeafletIcons";
-import "./App.css";
+import "./App-tw.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CompanyDetails from "./CompanyDetails";
 import ConfigContext from "./ConfigContext";

@@ -27,32 +27,33 @@ export default function CompanyDetails() {
   } else {
     return (
       <div className="company-container">
-        <Header></Header>
+        <Header />
         <div>
           <main>
             <LandmarkLogo landmark={companyRecords[0]}></LandmarkLogo>
-            <h1>{companyRecords[0].name}</h1>
+            <h1 className="text-xl text-black">{companyRecords[0].name}</h1>
             <p>{companyRecords[0].description}</p>
-            <h2>Known Locations</h2>
+            <h2 className="text-lg text-black">Known Locations</h2>
             {companyRecords.map((company) => {
               return (
-                <div>
-                  <address>
-                    {company.address.street}
-                    <br />
-                    {company.address.city}, {company.address.state}{" "}
-                    {company.address.zip}
-                  </address>
-                  <div className="map">
+                <div className="bg-slate-200 w-72">
+                  <div className="w-16">
                     <MapContainer
                       center={company.location as LatLngTuple}
                       zoom={12}
                       whenCreated={updateMapContext}
+                      className="w-64 h-64"
                     >
                       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                       <Marker position={company.location} />
                     </MapContainer>
                   </div>
+                  <address className="not-italic text-sm">
+                    {company.address.street}
+                    <br />
+                    {company.address.city}, {company.address.state}{" "}
+                    {company.address.zip}
+                  </address>
                 </div>
               );
             })}

@@ -18,12 +18,13 @@ export default function Home() {
         </main>
         <Helmet title="Boston's Computer History">
           <link rel="canonical" href="https://www.computerhistory.boston/" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         </Helmet>
         <Header className="floating">
           {" "}
           <Search></Search>
         </Header>
-        <Footer className="floating"></Footer>
+        <Footer />
       </MapContext>
     </div>
   );
