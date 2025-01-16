@@ -23,8 +23,3 @@ footer.floating {
 footer p {
   margin: 0.25rem 0 0rem 1rem;
 }
-
-footer a,
-footer a:visited {
-  color: #fff;
-}

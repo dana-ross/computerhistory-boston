@@ -1,12 +1,6 @@
-@font-face {
-  font-family: "Data Control";
-  src: url(./fonts/data-latin.ttf) format("truetype");
-}
-
-header {
+ header {
   background-color: #72ade1;
   width: 100%;
-  display: block;
   margin-bottom: 2rem;
   border-bottom: 1px solid #888;
 }

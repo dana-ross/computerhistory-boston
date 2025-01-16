@@ -1,9 +1,7 @@
-import "./ReturnToMap.css";
-
 export default function ReturnToMap() {
   return (
-    <p>
-      <a href="/" className="return rounded-full bg-sky-700">
+    <p className="my-4 ml-4">
+      <a href="/" className="return rounded-full text-white visited:text-white bg-sky-700 py-2 px-4">
         ⇦ Return to the Map
       </a>
     </p>

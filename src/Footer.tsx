@@ -9,7 +9,7 @@ function Footer(props: FooterProps) {
     <footer className="floating text-md text-white [text-shadow:_1px_1px_3px_#116]">
       <p>
         Made with ❤️ in Boston by{" "}
-        <a href="https://danaross.dev" target="_blank" rel="noreferrer">
+        <a href="https://hiredanatoday.com" target="_blank" rel="noreferrer" className="text-white visited:text-white">
           Dana Ross
         </a>{" "}
         &bull;{" "}
@@ -17,6 +17,7 @@ function Footer(props: FooterProps) {
           href="https://github.com/dana-ross/computerhistory-boston"
           target="_blank"
           rel="noreferrer"
+          className="text-white visited:text-white"
         >
           GitHub
         </a>

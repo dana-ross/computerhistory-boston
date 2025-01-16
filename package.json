@@ -54,5 +54,8 @@
     "terser": ">=5.14.2",
     "nth-check": ">=2.0.1",
     "postcss": ">=8.4.31"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
   }
 }

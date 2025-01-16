@@ -4,26 +4,6 @@
   grid-template-columns: 5fr 2fr;
 }
 
-.company-container main > *,
-.company-container .return {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.company-container h1 {
-  margin-top: 0;
-}
-
-address {
-  margin-bottom: 1rem;
-}
-.company-container .leaflet-container {
-  /* width: 60vw;
-  height: 60vw;
-  display: block; */
-  margin-bottom: 1rem;
-}
-
 @media (max-width: 720px) {
   .company-container > div {
     display: block;

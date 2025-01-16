@@ -29,15 +29,16 @@ export default function CompanyDetails() {
       <div className="company-container">
         <Header />
         <div>
-          <main>
+          <main className="ml-4">
             <LandmarkLogo landmark={companyRecords[0]}></LandmarkLogo>
-            <h1 className="text-xl text-black">{companyRecords[0].name}</h1>
-            <p>{companyRecords[0].description}</p>
-            <h2 className="text-lg text-black">Known Locations</h2>
+            <h1 className="text-xl text-black my-4">{companyRecords[0].name}</h1>
+            <p className="my-4">{companyRecords[0].description}</p>
+            <h2 className="text-lg text-black my-4">Known Locations</h2>
+            <div className="my-4">
             {companyRecords.map((company) => {
               return (
-                <div className="bg-slate-200 w-72">
-                  <div className="w-16">
+                <div className="bg-slate-200 w-72 p-4">
+                  <div className="w-16 mb-4">
                     <MapContainer
                       center={company.location as LatLngTuple}
                       zoom={12}
@@ -57,6 +58,7 @@ export default function CompanyDetails() {
                 </div>
               );
             })}
+            </div>
           </main>
           <aside>
             <LandmarkLogo landmark={companyRecords[0]}></LandmarkLogo>
