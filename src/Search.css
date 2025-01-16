@@ -1,54 +1,18 @@
-#search > * {
-  margin: 0rem 1rem 0rem 0rem;
-}
-
 #search input {
   width: 80%;
 }
 
 #search-results {
-  background-color: #fff;
-  font-size: 0.75rem;
-  /* margin-top: 1rem; */
-  padding: 0;
   width: 80%;
   max-height: 60vh;
   overflow-y: scroll;
 }
 
-#search-results ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
 #search-results ul li {
-  display: block;
   border-top: 1px solid #aaa;
-  margin: 0;
-  padding: 0.5rem 0.25rem;
   cursor: pointer;
 }
 
 #search-results ul li:first-child {
-  margin-top: 0;
   border-top: none;
-}
-
-#search-results ul li:hover {
-  background-color: #ccf;
-}
-
-#search-results h3 {
-  margin: 0;
-  padding: 0;
-}
-
-#search-results p {
-  margin: 0;
-  padding: 0;
-}
-
-#search-results .company-result {
-  display: inline-block;
 }

@@ -43,9 +43,10 @@ export default function Search() {
           setResults(fuse.search(query));
         }}
         value={query}
+        className="p-2"
       />
       {results && (
-        <div id="search-results">
+        <div id="search-results" className="bg-white p-0">
           <ul>
             {results.map((company) => {
               return (
@@ -68,10 +69,11 @@ export default function Search() {
                     e.stopPropagation();
                     e.preventDefault();
                   }}
+                  className="p-2 hover:bg-slate-200"
                 >
-                  <div className="company-result">
-                    <h3>{company.item.name}</h3>
-                    <p>
+                  <div className="company-result text-xs">
+                    <h3 className="m-0 p-0">{company.item.name}</h3>
+                    <p className="m-0 p-0">
                       {company.item.address.city}, {company.item.address.state}
                     </p>
                   </div>

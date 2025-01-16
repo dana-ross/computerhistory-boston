@@ -21,10 +21,10 @@ export default function CompanyMarker({ company }: CompanyMarkerProps) {
   return (
     <Marker position={company.location} ref={ref} alt={markerTitle}>
       <Popup>
-        <LandmarkLogo landmark={company}></LandmarkLogo>
-        <h2>{company.name}</h2>
-        <FullAddress address={company.address}></FullAddress>
-        <p>{company.description}</p>
+        <LandmarkLogo landmark={company} className="h-16"></LandmarkLogo>
+        <h2 className="mb-4">{company.name}</h2>
+        <FullAddress address={company.address} className="mb-4"></FullAddress>
+        <p className="mb-4 leading-normal">{company.description}</p>
         <p>
           <a href={`/company/${company.slug}`}>
             Read more about {company.name}

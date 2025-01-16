@@ -1,12 +1,14 @@
 import Address from "./Address";
 
 interface FullAddressProps {
-    address : Address
+    address : Address,
+    className?: string
 }
 
-export default function FullAddress({address } : FullAddressProps) {
+export default function FullAddress({address, className} : FullAddressProps) {
+    className += " italic"
     return (
-        <address>
+        <address className={className}>
             {address.street}<br />
             {address.city}, {address.state} {address.zip}
         </address>

@@ -25,10 +25,6 @@ a:visited {
   display: block;
 }
 
-header h1 {
-  margin-bottom: 0.25rem;
-}
-
 .leaflet-control-container {
   position: relative;
   top: 10rem;
