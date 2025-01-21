@@ -43,10 +43,10 @@ export default function Search() {
           setResults(fuse.search(query));
         }}
         value={query}
-        className="p-2"
+        className="p-2 mx-4 text-xs"
       />
       {results && (
-        <div id="search-results" className="bg-white p-0">
+        <div id="search-results" className="bg-white p-0 ml-4">
           <ul>
             {results.map((company) => {
               return (

@@ -27,7 +27,7 @@ export default function CompanyDetails() {
   } else {
     return (
       <div className="company-container">
-        <Header />
+        <Header className="w-full mb-4" />
         <div>
           <main className="ml-4">
             <LandmarkLogo landmark={companyRecords[0]}></LandmarkLogo>
