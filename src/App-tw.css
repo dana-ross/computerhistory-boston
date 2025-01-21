@@ -788,6 +788,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
+}
+
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
@@ -803,6 +808,10 @@ body {
 
 .visited\:text-white:visited {
   color: rgb(255 255 255 );
+}
+
+.visited\:text-blue-500:visited {
+  color: rgb(59 130 246 );
 }
 
 .hover\:bg-slate-200:hover {

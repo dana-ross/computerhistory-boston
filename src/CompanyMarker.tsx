@@ -27,7 +27,7 @@ export default function CompanyMarker({ company }: CompanyMarkerProps) {
         <FullAddress address={company.address} className="mb-4"></FullAddress>
         <p className="mb-4 leading-normal">{company.description}</p>
         <p>
-          <Link to={`/company/${company.slug}`}>
+          <Link to={`/company/${company.slug}`} className="text-blue-500 visited:text-blue-500">
             Read more about {company.name}
           </Link>
         </p>

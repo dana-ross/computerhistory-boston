@@ -32,7 +32,7 @@ export default function InstitutionMarker({
               {institution.links.map((link, index) => {
                 return (
                   <li key={link.key()}>
-                    <a href={link.href} target="_blank" rel="noreferrer">
+                    <a href={link.href} target="_blank" rel="noreferrer" className="text-blue-500 visited:text-blue-500">
                       {link.title}
                     </a>
                   </li>
