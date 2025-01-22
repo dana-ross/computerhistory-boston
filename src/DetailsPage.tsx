@@ -64,7 +64,7 @@ export default function DetailsPage() {
                     />
                 </Helmet>
                 <Sidebar />
-                <main>
+                <main className="w-full h-svh overflow-y-scroll">
                     <Header className="w-full mb-4" />
                     <div>
                         <main className="ml-4">
