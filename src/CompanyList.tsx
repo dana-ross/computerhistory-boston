@@ -18,7 +18,7 @@ export default function CompanyList() {
                 />
             </Helmet>
             <Sidebar />
-            <main className="w-full">
+            <main className="w-full h-svh overflow-y-scroll">
                 <Header className="w-full mb-4" />
                 <div>
                     <main className="ml-4 max-w-2xl">
