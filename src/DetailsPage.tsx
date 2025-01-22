@@ -100,15 +100,12 @@ export default function DetailsPage() {
                                 })}
                             </div>
                         </main>
-                        <aside>
-                            <LandmarkLogo landmark={landmarkRecords[0]}></LandmarkLogo>
-                            {!!landmarkRecords[0] && !!landmarkRecords[0].links.length && (
-                                <div className="company-links">
-                                    <h3>Links:</h3>
-                                    {landmarkRecords[0].linksUnorderedList()}
-                                </div>
-                            )}
-                        </aside>
+                        {!!landmarkRecords[0] && !!landmarkRecords[0].links.length && (
+                            <div className="company-links">
+                                <h3>Links:</h3>
+                                {landmarkRecords[0].linksUnorderedList()}
+                            </div>
+                        )}
                     </div>
                     <ReturnToMap />
                     <Footer></Footer>

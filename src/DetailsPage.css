@@ -1,32 +1,5 @@
-.company-container > div {
+/* .company-container>div {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 5fr 2fr;
-}
-
-@media (max-width: 720px) {
-  .company-container > div {
-    display: block;
-  }
-
-  .company-container main .logo {
-    display: block;
-  }
-
-  .company-container aside .logo {
-    display: none;
-  }
-
-  .company-container aside {
-    margin-left: 1rem;
-  }
-}
-
-@media (min-width: 720px) {
-  .company-container aside .logo {
-    display: block;
-  }
-  .company-container main .logo {
-    display: none;
-  }
-}
+} */
