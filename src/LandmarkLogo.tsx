@@ -15,5 +15,5 @@ export default function LandmarkLogo({ landmark, className }: LandmarkLogoProps)
     return null;
   }
 
-  return <img src={imgurl} alt={landmark.name + " logo"} className={className} />;
+  return <img src={imgurl} alt={landmark.name} className={className} />;
 }

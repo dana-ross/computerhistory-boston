@@ -41,8 +41,10 @@ export default function CompanyDetails() {
           <Header className="w-full mb-4" />
           <div>
             <main className="ml-4">
-              <LandmarkLogo landmark={companyRecords[0]}></LandmarkLogo>
-              <h1 className="text-xl text-black my-4">{companyRecords[0].name}</h1>
+
+              <h1 className="text-xl text-black my-4">
+                {companyRecords[0].logo ? <LandmarkLogo landmark={companyRecords[0]} className="w-32"></LandmarkLogo> : companyRecords[0].name}
+              </h1>
               <p className="my-4">{companyRecords[0].description}</p>
               <h2 className="text-lg text-black my-4">Known Locations</h2>
               <div className="my-4">
