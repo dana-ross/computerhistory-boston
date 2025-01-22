@@ -1,27 +1,18 @@
  header {
-  /* position: absolute; */
+   background-color: #72ade1;
+   z-index: 2000;
+   box-shadow: 0px 2px 4px #333;
+   border-bottom: none;
+ }
 
-  background-color: #72ade1;
-  /* top: 4rem; */
-  /* left: 2rem; */
-  /* width: 30vw; */
-  z-index: 2000;
-  box-shadow: 0px 2px 4px #333;
-  border-bottom: none;
-}
+ header>a,
+ a:visited {
+   color: #000;
+   text-decoration: none;
+   display: block;
+ }
 
-header > * {
-  /* margin: 0 1rem 1rem 1rem; */
-}
-
-header > a,
-a:visited {
-  color: #000;
-  text-decoration: none;
-  display: block;
-}
-
-.leaflet-control-container {
-  position: relative;
-  top: 10rem;
-}
+ .leaflet-control-container {
+   position: relative;
+   top: 10rem;
+ }

@@ -44,7 +44,7 @@ export default class Landmark implements Keyable {
         {this.links.map((link: Link, index: number) => {
           return (
             <li key={link.key()}>
-              <a href={link.href} target="_blank" rel="noreferrer">
+              <a href={link.href} target="_blank" rel="noreferrer" className="text-blue-500 visited:text-blue-500">
                 {link.title}
               </a>
             </li>

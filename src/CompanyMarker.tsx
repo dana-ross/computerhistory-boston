@@ -6,6 +6,7 @@ import { addMarker } from "./MapContext";
 import Leaflet from "leaflet";
 import FullAddress from "./FullAddress";
 import LandmarkLogo from "./LandmarkLogo";
+import { Link } from "react-router-dom";
 
 interface CompanyMarkerProps {
   company: Company;
@@ -26,9 +27,9 @@ export default function CompanyMarker({ company }: CompanyMarkerProps) {
         <FullAddress address={company.address} className="mb-4"></FullAddress>
         <p className="mb-4 leading-normal">{company.description}</p>
         <p>
-          <a href={`/company/${company.slug}`}>
+          <Link to={`/company/${company.slug}`} className="text-blue-500 visited:text-blue-500">
             Read more about {company.name}
-          </a>
+          </Link>
         </p>
       </Popup>
     </Marker>
