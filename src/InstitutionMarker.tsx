@@ -6,6 +6,7 @@ import { addMarker } from "./MapContext";
 import Leaflet from "leaflet";
 import FullAddress from "./FullAddress";
 import LandmarkLogo from "./LandmarkLogo";
+import { Link } from "react-router-dom";
 
 interface InstitutionMarkerProps {
   institution: Institution;
@@ -25,22 +26,11 @@ export default function InstitutionMarker({
         <h2>{institution.name}</h2>
         <FullAddress address={institution.address}></FullAddress>
         <p>{institution.description}</p>
-        {!!institution.links.length && (
-          <div className="institution-links">
-            <h3>Links:</h3>
-            <ul>
-              {institution.links.map((link, index) => {
-                return (
-                  <li key={link.key()}>
-                    <a href={link.href} target="_blank" rel="noreferrer" className="text-blue-500 visited:text-blue-500">
-                      {link.title}
-                    </a>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-        )}
+        <p>
+          <Link to={`/institution/${institution.slug}`} className="text-blue-500 visited:text-blue-500">
+            Read more about {institution.name}
+          </Link>
+        </p>
       </Popup>
     </Marker>
   );
