@@ -26,7 +26,7 @@ export default function InstitutionList() {
                         <div className="flex flex-row"><img src="/icons/building-library.svg" className="w-6 mr-2" /><h1 className="text-xl text-black my-4">Institutions</h1></div>
                         <p className="mb-4">Innovation doesn't just happen in offices. Government and academic labs in Eastern Massachusetts played big roles in the development of the computer as well as putting human footprints on the moon! There's even a pretty famous dorm room or two.</p>
                         <ul>
-                            {getInstitutions().map((institution) => {
+                            {getInstitutions().sort((a, b) => { return a.name.localeCompare(b.name) }).map((institution) => {
                                 return (
                                     <li className="mb-4" key={institution.key()}>
                                         <Link to={"/institution/" + institution.slug + "/"} className="text-blue-500 visited:text-blue-500">
