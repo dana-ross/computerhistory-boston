@@ -1,6 +1,5 @@
 import Footer from "./Footer";
 import Header from "./Header";
-import "./DetailsPage.css";
 import { useLocation, useParams } from "react-router-dom";
 import { getCompanies, getInstitutions, getLandmarks } from "./ConfigContext";
 import Company from "./Company";
