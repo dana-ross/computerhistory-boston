@@ -23,7 +23,7 @@ export default function DetailsPage() {
     const { slug } = useParams();
     const urlPath = useLocation().pathname;
 
-    const location = urlPath.match(/\/([^\/]*)\//);
+    const location = urlPath.match(/\/([^/]*)\//);
     if (!location) {
         return <FourOhFour />;
     }
