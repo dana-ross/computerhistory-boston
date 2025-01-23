@@ -38,10 +38,10 @@ export function getAllPOI() {
         config.companies,
         config.institutions,
         config.landmarks
-      );
+    );
 }
 
-export default function ConfigProvider({children} : ConfigContextProps) {
+export default function ConfigProvider({ children }: ConfigContextProps) {
     return (
         <ConfigContext.Provider value={config}>
             {children}
