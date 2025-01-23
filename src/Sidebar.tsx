@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Sidebar() {
     return (
-        <menu className="flex-none left-0 top-0 w-20 h-full z-[2000] bg-white text-center text-xs">
+        <menu className="hidden md:block flex-none left-0 top-0 w-20 h-full z-[2000] bg-white text-center text-xs">
             <ul>
                 <li>
                     <Link to={"/"} className="block my-4">
