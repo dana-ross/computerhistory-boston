@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && node scripts/sitemap.js > build/sitemap.xml",
+    "build": "npx tailwindcss -i ./src/App.css -o ./src/App-tw.css && react-scripts build && node scripts/sitemap.js > build/sitemap.xml",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
