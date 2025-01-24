@@ -1,16 +1,12 @@
-import React, { useContext } from "react";
+import React from "react";
 import Landmark from "./Landmark";
 import Config from "./Config";
 
 const config = new Config();
-const ConfigContext = React.createContext(config);
+export const ConfigContext = React.createContext(config);
 
 interface ConfigContextProps {
     children: any;
-}
-
-export function useConfig() {
-    return useContext(ConfigContext);
 }
 
 export function getDefaultCenter() {
@@ -38,10 +34,10 @@ export function getAllPOI() {
         config.companies,
         config.institutions,
         config.landmarks
-      );
+    );
 }
 
-export default function ConfigProvider({children} : ConfigContextProps) {
+export default function ConfigProvider({ children }: ConfigContextProps) {
     return (
         <ConfigContext.Provider value={config}>
             {children}

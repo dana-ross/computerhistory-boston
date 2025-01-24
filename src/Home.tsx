@@ -20,7 +20,7 @@ export default function Home() {
         </Helmet>
         <Sidebar />
         <main className="flex-initial relative">
-          <Header className="mb-0 pb-4 w-64 absolute top-4 left-4">
+          <Header className="mb-0 mx-4 md:mx-0 pb-4 w-10/12 md:w-96 absolute top-4 md:left-4">
             {" "}
             <Search></Search>
           </Header>
