@@ -21,7 +21,7 @@ export default function CompanyList() {
             <main className="w-full h-svh overflow-y-scroll">
                 <Header className="w-full mb-4" />
                 <div>
-                    <main className="ml-4 max-w-2xl">
+                    <main className="mx-4 w-auto md:max-w-2xl">
                         <div className="flex flex-row"><img src="/icons/briefcase.svg" className="w-6 mr-2" alt="" /><h1 className="text-xl text-black my-4">Companies</h1></div>
                         <p className="mb-4">With esteemed institues of higher learning in our backyard, Eastern Massachusetts has been home to an impressive number of technology companies over the years. The Boston area has produced not only some of the first digital computers, but the parts used to build them. Even today, we see innovation on a scale rarely found outside Silicon Valley.</p>
                         <ul>
