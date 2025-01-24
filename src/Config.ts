@@ -7,16 +7,45 @@ import landmarksRaw from "./data/landmarks.json";
 import institutionsRaw from "./data/institutions.json";
 import Link from "./Link";
 
+interface MenuLink {
+  targetPath: string,
+  iconURL: string,
+  label: string,
+}
+
 export default class Config {
   center: LatLngTuple;
   defaultZoom: number;
   companies = new Array<Company>();
   landmarks = new Array<Landmark>();
   institutions = new Array<Institution>();
+  menuLinks = new Array<MenuLink>();
 
   constructor() {
     this.center = [42.361145, -71.057083];
     this.defaultZoom = 10;
+    this.menuLinks = [
+      {
+        targetPath: "/",
+        iconURL: "/icons/map.svg",
+        label: "Map",
+      },
+      {
+        targetPath: "/companies",
+        iconURL: "/icons/briefcase.svg",
+        label: "Companies",
+      },
+      {
+        targetPath: "/institutions",
+        iconURL: "/icons/building-library.svg",
+        label: "Institutions",
+      },
+      {
+        targetPath: "/landmarks",
+        iconURL: "/icons/map-pin.svg",
+        label: "Landmarks",
+      }
+    ]
 
     companiesRaw.forEach((rawCompany: any) => {
       this.companies.push(
