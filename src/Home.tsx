@@ -12,7 +12,7 @@ fixLeafletIcons();
 
 export default function Home() {
   return (
-    <div className="App flex">
+    <div className="App flex overflow-clip">
       <MapContext>
         <Helmet title="Boston's Computer History">
           <link rel="canonical" href="https://www.computerhistory.boston/" />
