@@ -98,13 +98,13 @@ export default function DetailsPage() {
                                     );
                                 })}
                             </div>
+                            {!!landmarkRecords[0] && !!landmarkRecords[0].links.length && (
+                                <div className="company-links">
+                                    <h3>Links:</h3>
+                                    {landmarkRecords[0].linksUnorderedList()}
+                                </div>
+                            )}
                         </main>
-                        {!!landmarkRecords[0] && !!landmarkRecords[0].links.length && (
-                            <div className="company-links">
-                                <h3>Links:</h3>
-                                {landmarkRecords[0].linksUnorderedList()}
-                            </div>
-                        )}
                     </div>
                     <ReturnToMap />
                     <Footer></Footer>
