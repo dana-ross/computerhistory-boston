@@ -24,7 +24,7 @@ export default function Home() {
             {" "}
             <Search></Search>
           </Header>
-          <div className="">
+          <div className="h-100 max-h-dvh">
             <Map></Map>
             <div className="absolute bottom-4 left-4 mr-4 w-fit z-[400]">
               <Footer />
