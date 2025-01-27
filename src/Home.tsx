@@ -26,7 +26,7 @@ export default function Home() {
           </Header>
           <div className="">
             <Map></Map>
-            <div className="absolute bottom-8 left-4 w-fit z-[400]">
+            <div className="absolute bottom-4 left-4 mr-4 w-fit z-[400]">
               <Footer />
             </div>
           </div>
