@@ -8,7 +8,10 @@
       "state": "MA",
       "zip": "02140"
     },
-    "location": [42.39962, -71.1536],
+    "location": [
+      42.39962,
+      -71.1536
+    ],
     "description": "Infocom was an American software company based in Cambridge, Massachusetts, that produced numerous works of interactive fiction. They also produced a business application, a relational database called Cornerstone.",
     "links": [],
     "logo": "Infocom_Logo.svg"
@@ -22,7 +25,10 @@
       "state": "MA",
       "zip": "02139"
     },
-    "location": [42.3657, -71.10422],
+    "location": [
+      42.3657,
+      -71.10422
+    ],
     "description": "Psygnosis was a British video game developer and publisher. The company was founded in Liverpool in 1984 from the ashes of Imagine, and initially developed games (mostly in the action genre) for Amiga and Atari ST. After their initial success with their early games, such as Brataccas, Psygnosis' biggest hit came with Lemmings, released in 1991 and spawned many sequels. This success led to the acquisition of the company by Sony Corp. on May 23, 1993.",
     "links": [],
     "logo": "Psygnosis-text.png"
@@ -36,7 +42,10 @@
       "state": "MA",
       "zip": "02146"
     },
-    "location": [42.34643, -71.10828],
+    "location": [
+      42.34643,
+      -71.10828
+    ],
     "description": "Psygnosis was a British video game developer and publisher. The company was founded in Liverpool in 1984 from the ashes of Imagine, and initially developed games (mostly in the action genre) for Amiga and Atari ST. After their initial success with their early games, such as Brataccas, Psygnosis' biggest hit came with Lemmings, released in 1991 and spawned many sequels. This success led to the acquisition of the company by Sony Corp. on May 23, 1993.",
     "links": [],
     "logo": "Psygnosis-text.png"
@@ -50,7 +59,10 @@
       "state": "MA",
       "zip": "01824"
     },
-    "location": [42.59276, -71.32724],
+    "location": [
+      42.59276,
+      -71.32724
+    ],
     "description": "Apollo Computer Inc., founded in 1980 in Chelmsford, Massachusetts, by William Poduska (a founder of Prime Computer) and others, developed and produced Apollo/Domain workstations in the 1980s. Along with Symbolics and Sun Microsystems, Apollo was one of the first vendors of graphical workstations in the 1980s. Like computer companies at the time and unlike manufacturers of IBM PC compatibles, Apollo produced much of its own hardware and software.",
     "links": [
       {
@@ -69,7 +81,10 @@
       "state": "MA",
       "zip": "01775"
     },
-    "location": [42.43479, -71.54192],
+    "location": [
+      42.43479,
+      -71.54192
+    ],
     "description": "Digital Equipment Corporation (DEC /dɛk/), using the trademark Digital, was a major American company in the computer industry from the 1960s to the 1990s. The company was co-founded by Ken Olsen and Harlan Anderson in 1957. Olsen was president until forced to resign in 1992, after the company had gone into precipitous decline.",
     "links": [
       {
@@ -88,7 +103,10 @@
       "state": "MA",
       "zip": "01580"
     },
-    "location": [42.2889, -71.57374],
+    "location": [
+      42.2889,
+      -71.57374
+    ],
     "description": "Data General was one of the first minicomputer firms of the late 1960s. Three of the four founders were former employees of Digital Equipment Corporation (DEC).",
     "links": [
       {
@@ -107,7 +125,10 @@
       "state": "MA",
       "zip": "01851"
     },
-    "location": [42.61447, -71.32713],
+    "location": [
+      42.61447,
+      -71.32713
+    ],
     "description": "Wang Laboratories was a computer company founded in 1951, by An Wang and G. Y. Chu.[1] The company was successively headquartered in Cambridge, Massachusetts (1954–1963), Tewksbury, Massachusetts (1963–1976), and finally in Lowell, Massachusetts (1976–1997).",
     "links": [
       {
@@ -130,7 +151,10 @@
       "state": "MA",
       "zip": "01876"
     },
-    "location": [42.63701, -71.23859],
+    "location": [
+      42.63701,
+      -71.23859
+    ],
     "description": "Wang Laboratories was a computer company founded in 1951, by An Wang and G. Y. Chu.[1] The company was successively headquartered in Cambridge, Massachusetts (1954–1963), Tewksbury, Massachusetts (1963–1976), and finally in Lowell, Massachusetts (1976–1997).",
     "links": [
       {
@@ -153,7 +177,10 @@
       "state": "MA",
       "zip": "02138"
     },
-    "location": [42.39106, -71.14785],
+    "location": [
+      42.39106,
+      -71.14785
+    ],
     "description": "After the PDP-1 arrived, BBN hired two of Licklider's friends from MIT, John McCarthy and Marvin Minsky, as consultants. McCarthy had been unsuccessful in convincing MIT engineers to build time-sharing systems for computers. He had more success at BBN though, working with Ed Fredkin and Sheldon Boilen in implementing one of the first timesharing systems, the BBN Time-Sharing System. In 1962, BBN would install one such time-shared information system at Massachusetts General Hospital where doctors and nurses could create and access patients' information at various nurses' stations connected to a central computer. BBN would soon begin more research about integrating computers and medicine, hiring Bob Taylor in 1965 and MIT Lincoln Laboratory computer systems engineer Frank Heart in 1966. The Logo programming language was created in 1967 at BBN by Wally Feurzeig, Cynthia Solomon, and Seymour Papert.",
     "links": [],
     "logo": "bbn-logo.jpg"
@@ -167,7 +194,10 @@
       "state": "MA",
       "zip": "02139"
     },
-    "location": [42.3615532, -71.0977666],
+    "location": [
+      42.3615532,
+      -71.0977666
+    ],
     "description": "Analog Devices, Inc. was founded by Matthew Lorber and Ray Stata in 1965 in Cambridge, MA to produce modular precision operational amplifiers. In 1969 the company entered the semiconductor market by funding and later acquiring analog startup Nova Devices and by purchasing Precision Monolithics of Santa Clara, CA in 1990. Today ADI is a major supplier of analog, mixed-signal, and DSP products based in Norwood. MA. Fiscal year 2006 revenue was $2.57 billion.",
     "links": [
       {
@@ -186,7 +216,10 @@
       "state": "MA",
       "zip": "02021"
     },
-    "location": [42.1620386, -71.1626397],
+    "location": [
+      42.1620386,
+      -71.1626397
+    ],
     "description": "Roger Noble and Alan R. Pearlman founded Nexus Research Laboratory, Inc of Canton, MA from Philbrick Researches, Boston, MA in the early 1960s to produce analog modules and op amps. The companies were reunited in 1966 when Teledyne Components acquired them both to create Teledyne Philbrick Nexus. In about 1985, Teledyne spun this business off as Telcom Semiconductor Inc, Mountain View, CA that was acquired in 2000 by Microchip.",
     "links": [],
     "logo": "Nexus Research Laboratory.png"
@@ -200,7 +233,10 @@
       "state": "MA",
       "zip": "02110"
     },
-    "location": [42.3544, -71.05436],
+    "location": [
+      42.3544,
+      -71.05436
+    ],
     "description": "George Arthur Philbrick built the first commercial Operational amplifier, the K2-W. The company was first in Boston, MA: 1956 at 230 Congress Street, 1958 at 285 Columbus Avenue and 1963 at 127, Clarendon Street, Boston 16. In 1968 they were in Dedham, MA, Allied Drive at Route 128 where they still could be found in 1982 as Philbrick/Nexus Research, A Teledyne Company.",
     "links": [
       {
@@ -219,7 +255,10 @@
       "state": "MA",
       "zip": "02116"
     },
-    "location": [42.3470925, -71.076207],
+    "location": [
+      42.3470925,
+      -71.076207
+    ],
     "description": "George Arthur Philbrick built the first commercial Operational amplifier, the K2-W. The company was first in Boston, MA: 1956 at 230 Congress Street, 1958 at 285 Columbus Avenue and 1963 at 127, Clarendon Street, Boston 16. In 1968 they were in Dedham, MA, Allied Drive at Route 128 where they still could be found in 1982 as Philbrick/Nexus Research, A Teledyne Company.",
     "links": [
       {
@@ -238,7 +277,10 @@
       "state": "MA",
       "zip": "02116"
     },
-    "location": [42.3483865, -71.075974],
+    "location": [
+      42.3483865,
+      -71.075974
+    ],
     "description": "George Arthur Philbrick built the first commercial Operational amplifier, the K2-W. The company was first in Boston, MA: 1956 at 230 Congress Street, 1958 at 285 Columbus Avenue and 1963 at 127, Clarendon Street, Boston 16. In 1968 they were in Dedham, MA, Allied Drive at Route 128 where they still could be found in 1982 as Philbrick/Nexus Research, A Teledyne Company.",
     "links": [
       {
@@ -257,7 +299,10 @@
       "state": "MA",
       "zip": "02026"
     },
-    "location": [42.2249041, -71.1719259],
+    "location": [
+      42.2249041,
+      -71.1719259
+    ],
     "description": "George Arthur Philbrick built the first commercial Operational amplifier, the K2-W. The company was first in Boston, MA: 1956 at 230 Congress Street, 1958 at 285 Columbus Avenue and 1963 at 127, Clarendon Street, Boston 16. In 1968 they were in Dedham, MA, Allied Drive at Route 128 where they still could be found in 1982 as Philbrick/Nexus Research, A Teledyne Company.",
     "links": [
       {
@@ -276,7 +321,10 @@
       "state": "MA",
       "zip": "01810"
     },
-    "location": [42.6823233, -71.2081266],
+    "location": [
+      42.6823233,
+      -71.2081266
+    ],
     "description": "GCA was a pioneer in the vital chip making technology known as photolithography, but ran into problems in the mid-1980s and lost the market to Japanese competitors Nikon and Canon.",
     "links": [
       {
@@ -295,7 +343,10 @@
       "state": "MA",
       "zip": "01803"
     },
-    "location": [42.4917426, -71.2273401],
+    "location": [
+      42.4917426,
+      -71.2273401
+    ],
     "description": "GCA was a pioneer in the vital chip making technology known as photolithography, but ran into problems in the mid-1980s and lost the market to Japanese competitors Nikon and Canon.",
     "links": [
       {
@@ -314,7 +365,10 @@
       "state": "MA",
       "zip": "01923"
     },
-    "location": [42.5647449, -70.970231],
+    "location": [
+      42.5647449,
+      -70.970231
+    ],
     "description": "TSI was a manufacturer of measuring equipment.",
     "links": [],
     "logo": ""
@@ -328,7 +382,10 @@
       "state": "MA",
       "zip": "01801"
     },
-    "location": [42.5010412, -71.164684],
+    "location": [
+      42.5010412,
+      -71.164684
+    ],
     "description": "Sylvania Electric Products Inc. was an American manufacturer of diverse electrical equipment, including at various times radio transceivers, vacuum tubes, semiconductors, and mainframe computers such as MOBIDIC. They were one of the companies involved in the development of the COBOL programming language.",
     "links": [],
     "logo": "SylvaniaElectricLOGO.png"
@@ -342,7 +399,10 @@
       "state": "MA",
       "zip": "01880"
     },
-    "location": [42.5007227, -71.078345],
+    "location": [
+      42.5007227,
+      -71.078345
+    ],
     "description": "Founded by Dr. David Bakalar in Wakefield, Massachusetts in 1952 to manufacture transistors. Dr. Bakalar led Transitron for 30 years. Transitron ceased operations in 1986. By 1955 TI and Transitron were the leaders of the transistor industry with over 35% of the market. By 1961 Transitron was the number two American semiconductor company behind Texas Instruments with sales of over $40 million. As the 60’s rolled on silicon and planar technologies drastically changed the economics of the transistor industry. The company ultimately failed after not investing in the development of these new technologies. It had difficulty transitioning from Germanium to Silicon technology and subsequently integrated circuit technology. Transistron did manufacture IC’s and even developed a bipolar microprocessor. However, the company never recovered from expenditure of funds to develop the microprocessor.",
     "links": [
       {
@@ -369,7 +429,10 @@
       "state": "MA",
       "zip": "02176"
     },
-    "location": [42.4534253, -71.0678057],
+    "location": [
+      42.4534253,
+      -71.0678057
+    ],
     "description": "Founded by Dr. David Bakalar in Wakefield, Massachusetts in 1952 to manufacture transistors. Dr. Bakalar led Transitron for 30 years. Transitron ceased operations in 1986. By 1955 TI and Transitron were the leaders of the transistor industry with over 35% of the market. By 1961 Transitron was the number two American semiconductor company behind Texas Instruments with sales of over $40 million. As the 60’s rolled on silicon and planar technologies drastically changed the economics of the transistor industry. The company ultimately failed after not investing in the development of these new technologies. It had difficulty transitioning from Germanium to Silicon technology and subsequently integrated circuit technology. Transistron did manufacture IC’s and even developed a bipolar microprocessor. However, the company never recovered from expenditure of funds to develop the microprocessor.",
     "links": [
       {
@@ -396,7 +459,10 @@
       "state": "MA",
       "zip": "02138"
     },
-    "location": [42.3902898, -71.1448929],
+    "location": [
+      42.3902898,
+      -71.1448929
+    ],
     "description": "A computer store founded in 1982 selling home computers, including the popular Apple II line.",
     "links": [],
     "logo": ""
@@ -410,7 +476,10 @@
       "state": "MA",
       "zip": "02451"
     },
-    "location": [42.4205153, -71.2603761],
+    "location": [
+      42.4205153,
+      -71.2603761
+    ],
     "description": "Kendall Square Research (KSR) was a supercomputer company headquartered originally in Kendall Square in Cambridge, Massachusetts in 1986, near Massachusetts Institute of Technology (MIT). It was co-founded by Steven Frank and Henry Burkhardt III, who had formerly helped found Data General and Encore Computer and was one of the original team that designed the PDP-8. KSR produced two models of supercomputer, the KSR1 and KSR2. It went bankrupt in 1994.",
     "links": [
       {
@@ -429,7 +498,10 @@
       "state": "MA",
       "zip": "02452"
     },
-    "location": [42.3851867, -71.2290297],
+    "location": [
+      42.3851867,
+      -71.2290297
+    ],
     "description": "Thinking Machines Corporation was a supercomputer manufacturer and artificial intelligence (AI) company, founded in Waltham, Massachusetts, in 1983 by Sheryl Handler and W. Daniel \"Danny\" Hillis to turn Hillis's doctoral work at the Massachusetts Institute of Technology (MIT) on massively parallel computing architectures into a commercial product named the Connection Machine. The company moved in 1984 from Waltham to Kendall Square in Cambridge, Massachusetts, close to the MIT AI Lab.",
     "links": [],
     "logo": "Thinking_Machines_Corporation_logo.png"
@@ -443,7 +515,10 @@
       "state": "MA",
       "zip": "02142"
     },
-    "location": [42.3635219, -71.0812145],
+    "location": [
+      42.3635219,
+      -71.0812145
+    ],
     "description": "Thinking Machines Corporation was a supercomputer manufacturer and artificial intelligence (AI) company, founded in Waltham, Massachusetts, in 1983 by Sheryl Handler and W. Daniel \"Danny\" Hillis to turn Hillis's doctoral work at the Massachusetts Institute of Technology (MIT) on massively parallel computing architectures into a commercial product named the Connection Machine. The company moved in 1984 from Waltham to Kendall Square in Cambridge, Massachusetts, close to the MIT AI Lab.",
     "links": [],
     "logo": "Thinking_Machines_Corporation_logo.png"
@@ -457,7 +532,10 @@
       "state": "MA",
       "zip": "01760"
     },
-    "location": [42.2907432, -71.3631491],
+    "location": [
+      42.2907432,
+      -71.3631491
+    ],
     "description": "Prime Computer, Inc. was a Natick, Massachusetts-based producer of minicomputers from 1972 until 1992. With the advent of PCs and the decline of the minicomputer industry, Prime was forced out of the market in the early 1990s, and by the end of 2010 the trademarks for both PRIME and PRIMOS no longer existed.",
     "links": [],
     "logo": "Prime_computer_logo.jpg"
@@ -471,7 +549,10 @@
       "state": "MA",
       "zip": "01801"
     },
-    "location": [42.5146554, -71.1328415],
+    "location": [
+      42.5146554,
+      -71.1328415
+    ],
     "description": "AMP Keyboard Technologies, Inc. was a producer of membrane keyboards for computing and industrial use. They produced the keyboards for the ill-fated Commodore MAX computer and were sued by Commodore in 1983, claiming their keyboards were defective and unfit for use. The company was purchased by Lucas Industries, Plc. in 1989 for $6.2 million.",
     "links": [
       {
@@ -493,7 +574,10 @@
       "state": "MA",
       "zip": "02142"
     },
-    "location": [42.3649281, -71.0910598],
+    "location": [
+      42.3649281,
+      -71.0910598
+    ],
     "description": "Symbolics designed and manufactured a line of Lisp machines, single-user computers optimized to run the programming language Lisp. Symbolics also made significant advances in software technology, and offered one of the premier software development environments of the 1980s and 1990s, now sold commercially as Open Genera for Tru64 UNIX on the Hewlett-Packard (HP) Alpha. The Lisp Machine was the first commercially available workstation, although that word had not yet been coined. Symbolics has the distinction of registering the first .com domain name on March 15, 1985.",
     "links": [
       {
@@ -516,7 +600,10 @@
       "state": "MA",
       "zip": "01742"
     },
-    "location": [42.4676213, -71.3056895],
+    "location": [
+      42.4676213,
+      -71.3056895
+    ],
     "description": "Symbolics designed and manufactured a line of Lisp machines, single-user computers optimized to run the programming language Lisp. Symbolics also made significant advances in software technology, and offered one of the premier software development environments of the 1980s and 1990s, now sold commercially as Open Genera for Tru64 UNIX on the Hewlett-Packard (HP) Alpha. The Lisp Machine was the first commercially available workstation, although that word had not yet been coined. Symbolics has the distinction of registering the first .com domain name on March 15, 1985.",
     "links": [
       {
@@ -539,7 +626,10 @@
       "state": "MA",
       "zip": "02139"
     },
-    "location": [42.3691041, -71.1120049],
+    "location": [
+      42.3691041,
+      -71.1120049
+    ],
     "description": "Terrapin has been creating versions of the Logo programming language for home and educational use since 1982 and currently offers hardware and software to support the use of Logo in classrooms.",
     "links": [
       {
@@ -558,7 +648,10 @@
       "state": "MA",
       "zip": "01845"
     },
-    "location": [42.7307, -71.11277],
+    "location": [
+      42.7307,
+      -71.11277
+    ],
     "description": "Origin Systems, Inc. was an American video game developer based in Austin, Texas. It was founded on March 3, 1983, by Richard Garriott and his brother Robert. Origin is best known for their groundbreaking work in multiple genres of video games, such as the Ultima and Wing Commander series. The company was purchased by Electronic Arts in 1992.",
     "links": [],
     "logo": "1280px-Origin-logo-1994.svg.png"
@@ -572,7 +665,10 @@
       "state": "MA",
       "zip": "02215"
     },
-    "location": [42.3487194, -71.1025152],
+    "location": [
+      42.3487194,
+      -71.1025152
+    ],
     "description": "Opened in 1976 by MIT graduates Sonny Monosson and Bill Grinker, this store offered hobbyist kits next to $100,000 minicomputers and professional quality terminals. The store boasted a troubleshooting & repair service. The store was the retail division of American Used Computer Corp, and boasted 7,500 square feet of retail display area.",
     "links": [],
     "logo": ""
@@ -586,7 +682,10 @@
       "state": "MA",
       "zip": "01803"
     },
-    "location": [42.4959633, -71.229608],
+    "location": [
+      42.4959633,
+      -71.229608
+    ],
     "description": "Following successful contributions to the technology of the Apollo spacecraft's LEM, RCA Aerospace Systems was renamed to the RCA Automated Systems Division and refocused on creating and testing computer and communication systems for industry. The facility was sold to Sun Microsystems in 1997 and given the address 1 Network Dr.",
     "links": [
       {
@@ -613,7 +712,10 @@
       "state": "MA",
       "zip": "01803"
     },
-    "location": [42.496089, -71.230178],
+    "location": [
+      42.496089,
+      -71.230178
+    ],
     "description": "Sun Microsystems was an American technology company that sold computers, computer components, software, and information technology services and created the Java programming language, the Solaris operating system, ZFS, the Network File System (NFS), and SPARC microprocessors. Their 'East Coast Division' was located in Lexington, MA and later moved to the former RCA Aerospace facility in Burlington.",
     "links": [
       {
@@ -632,9 +734,34 @@
       "state": "MA",
       "zip": "01824"
     },
-    "location": [42.5931313, -71.3231126],
+    "location": [
+      42.5931313,
+      -71.3231126
+    ],
     "description": "Kronos was founded in 1977 by MIT Business School graduate Mark S. Ain and created the first microprocessor-based time clock for businesses in 1979. In 1985, they developed a PC-based time & attendance tracking application. In 2017, Kronos moved its corporate headquarters from Chelmsford, MA to Lowell, MA. The company merged with Ultimate Software in 2020.",
     "links": [],
     "logo": "Kronos_Incorporated_logo.svg"
+  },
+  {
+    "slug": "intel",
+    "name": "Intel",
+    "address": {
+      "street": "75 Reed Rd.",
+      "city": "Hudson",
+      "state": "MA",
+      "zip": "01749"
+    },
+    "location": [
+      42.3815097,
+      -71.5553539
+    ],
+    "description": "Intel acquired the former DEC site in Hudson following the company's sale to Compaq in 1998. Fab 17 produced specialty devices based on increasingly obsolete chipmaking technologies until Intel closed the facility in 2014. Intel kept the Hudson site open for several years later, as the home of more than 800 R&D specialists. Intel sold the site in 2022.",
+    "links": [
+      {
+        "title": "Intel to sell Massachusetts R&D site, once home to its only New England fab",
+        "href": "https://www.theregister.com/2022/06/30/intel_dec_massachusetts_demolished/"
+      }
+    ],
+    "logo": "Intel-logo.svg"
   }
 ]
