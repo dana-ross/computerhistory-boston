@@ -16,7 +16,7 @@ export default function MobileMenu() {
                 <ul>
                     {configContext.menuLinks.map((menuLink) => {
                         return (
-                            <li>
+                            <li key={menuLink.targetPath}>
                                 <Link to={menuLink.targetPath} onClick={() => { menuContext.setMobileMenuVisible(false) }} className="flex flex-row my-4">
                                     <img src={menuLink.iconURL} className="w-12 ml-8 mr-4" alt="" />
                                     <p className="mt-2">{menuLink.label}</p>

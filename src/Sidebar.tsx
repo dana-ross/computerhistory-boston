@@ -13,7 +13,7 @@ export default function Sidebar() {
                 <ul>
                     {configContext.menuLinks.map((menuLink) => {
                         return (
-                            <li>
+                            <li key={menuLink.targetPath}>
                                 <Link to={menuLink.targetPath} className="block my-4">
                                     <img src={menuLink.iconURL} className="w-8 mx-auto" alt="" />
                                     <p>{menuLink.label}</p>
