@@ -73,7 +73,7 @@ export default function DetailsPage() {
                             <div className="my-4">
                                 {landmarkRecords.map((company) => {
                                     return (
-                                        <div className="bg-slate-200 w-72 p-4" key={company.key}>
+                                        <div className="bg-slate-200 w-72 p-4" key={company.key()}>
                                             <div className="w-16 mb-4">
                                                 <MapContainer
                                                     center={company.location as LatLngTuple}
