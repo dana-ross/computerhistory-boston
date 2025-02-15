@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import ReturnToMap from "./ReturnToMap";
 import Sidebar from "./Sidebar";
@@ -9,14 +8,14 @@ import { Link } from "react-router-dom";
 export default function InstitutionList() {
     return (
         <div className="company-container flex">
-            <Helmet
-                title={`Institutions : Boston's Computer History`}
-            >
-                <link
-                    rel="canonical"
-                    href={`https://www.computerhistory.boston/institutions/`}
-                />
-            </Helmet>
+
+            <title>Institutions : Boston's Computer History</title>
+
+            <link
+                rel="canonical"
+                href={`https://www.computerhistory.boston/institutions/`}
+            />
+
             <Sidebar />
             <main className="w-full h-svh overflow-y-scroll">
                 <Header className="w-full mb-4" />

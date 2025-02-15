@@ -9,7 +9,6 @@ import Leaflet, { LatLngTuple } from "leaflet";
 import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import { setMap } from "./MapContext";
 import ReturnToMap from "./ReturnToMap";
-import { Helmet } from "react-helmet";
 import Sidebar from "./Sidebar";
 import Landmark from "./Landmark";
 import Institution from "./Institution";
@@ -53,16 +52,14 @@ export default function DetailsPage() {
     if (landmarkRecords.length === 0) {
         return <FourOhFour />;
     } else {
+        const pageTitle = landmarkRecords[0].name + " : Boston's Computer History";
         return (
             <div className="company-container flex">
-                <Helmet
-                    title={` ${landmarkRecords[0].name} : Boston's Computer History`}
-                >
-                    <link
-                        rel="canonical"
-                        href={`https://www.computerhistory.boston/company/${landmarkRecords[0].slug}/`}
-                    />
-                </Helmet>
+                <title>{pageTitle}</title>
+                <link
+                    rel="canonical"
+                    href={`https://www.computerhistory.boston/company/${landmarkRecords[0].slug}/`}
+                />
                 <Sidebar />
                 <main className="w-full h-svh overflow-y-scroll">
                     <Header className="w-full mb-4" />
@@ -76,12 +73,12 @@ export default function DetailsPage() {
                             <div className="my-4">
                                 {landmarkRecords.map((company) => {
                                     return (
-                                        <div className="bg-slate-200 w-72 p-4">
+                                        <div className="bg-slate-200 w-72 p-4" key={company.key}>
                                             <div className="w-16 mb-4">
                                                 <MapContainer
                                                     center={company.location as LatLngTuple}
                                                     zoom={12}
-                                                    whenCreated={updateMapContext}
+                                                    ref={updateMapContext}
                                                     className="w-64 h-64"
                                                 >
                                                     <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
@@ -109,7 +106,6 @@ export default function DetailsPage() {
                     <ReturnToMap />
                     <Footer></Footer>
                 </main>
-
             </div>
         );
 

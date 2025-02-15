@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import ReturnToMap from "./ReturnToMap";
 import Sidebar from "./Sidebar";
@@ -9,14 +8,11 @@ import { Link } from "react-router-dom";
 export default function CompanyList() {
     return (
         <div className="company-container flex">
-            <Helmet
-                title={`Companies : Boston's Computer History`}
-            >
-                <link
-                    rel="canonical"
-                    href={`https://www.computerhistory.boston/companies/`}
-                />
-            </Helmet>
+            <title>Companies : Boston's Computer History</title>
+            <link
+                rel="canonical"
+                href={`https://www.computerhistory.boston/companies/`}
+            />
             <Sidebar />
             <main className="w-full h-svh overflow-y-scroll">
                 <Header className="w-full mb-4" />
@@ -41,6 +37,6 @@ export default function CompanyList() {
                 <ReturnToMap />
                 <Footer></Footer>
             </main>
-        </div>
+        </div >
     );
 }

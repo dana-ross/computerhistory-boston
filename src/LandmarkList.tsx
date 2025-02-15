@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet";
 import Footer from "./Footer";
 import ReturnToMap from "./ReturnToMap";
 import Sidebar from "./Sidebar";
@@ -9,14 +8,11 @@ import { Link } from "react-router-dom";
 export default function LandmarkList() {
     return (
         <div className="company-container flex">
-            <Helmet
-                title={`Landmarks : Boston's Computer History`}
-            >
-                <link
-                    rel="canonical"
-                    href={`https://www.computerhistory.boston/landmarks/`}
-                />
-            </Helmet>
+            <title>Landmarks : Boston's Computer History</title>
+            <link
+                rel="canonical"
+                href={`https://www.computerhistory.boston/landmarks/`}
+            />
             <Sidebar />
             <main className="w-full h-svh overflow-y-scroll">
                 <Header className="w-full mb-4" />
