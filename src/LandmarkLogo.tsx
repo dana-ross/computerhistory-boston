@@ -6,7 +6,7 @@ interface LandmarkLogoProps {
 }
 
 function logoURL(logo: string) {
-  return logo && logo.length ? `${process.env.PUBLIC_URL}/logos/${logo}` : "";
+  return logo && logo.length ? `/logos/${logo}` : "";
 }
 export default function LandmarkLogo({ landmark, className }: LandmarkLogoProps) {
   const imgurl = logoURL(landmark.logo);
