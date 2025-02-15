@@ -25,7 +25,7 @@ function Map() {
     <MapContainer
       center={getDefaultCenter()}
       zoom={getDefaultZoom()}
-      whenCreated={updateMapContext}
+      ref={updateMapContext}
     >
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
       {getCompanies().map((company: Company) => {
