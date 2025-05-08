@@ -44,6 +44,11 @@ export default class Config {
         targetPath: "/landmarks",
         iconURL: "/icons/map-pin.svg",
         label: "Landmarks",
+      },
+      {
+        targetPath: "/about",
+        iconURL: "/icons/map-pin.svg",
+        label: "About",
       }
     ]
 

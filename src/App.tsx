@@ -9,6 +9,7 @@ import InstitutionList from "./InstitutionList";
 import LandmarkList from "./LandmarkList";
 import DetailsPage from "./DetailsPage";
 import { MenuContextProvider } from "./MenuContext";
+import AboutPage from "./AboutPage";
 
 
 fixLeafletIcons();
@@ -26,6 +27,7 @@ function App() {
             <Route path="/companies" element={<CompanyList />} />
             <Route path="/institutions" element={<InstitutionList />} />
             <Route path="/landmarks" element={<LandmarkList />} />
+            <Route path="/about" element={<AboutPage />} />
             <Route path="*" element={<FourOhFour />} />
           </Routes>
         </BrowserRouter>
