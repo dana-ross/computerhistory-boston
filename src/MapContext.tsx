@@ -22,7 +22,7 @@ export function getMap() {
 }
 
 export function addMarker(marker: RefObject<Leaflet.Marker | null>) {
-    if (marker.current instanceof Leaflet.Marker) {
+    if (marker) {
         markers.push(marker as RefObject<Leaflet.Marker>);
     }
 }
