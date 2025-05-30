@@ -763,5 +763,23 @@
       }
     ],
     "logo": "Intel-logo.svg"
+  },
+  {
+    "slug": "spinnaker",
+    "name": "Spinnaker Software Corp.",
+    "address": {
+      "street": "215 First St.",
+      "city": "Cambridge",
+      "state": "MA",
+      "zip": "02142"
+    },
+    "location": [
+      42.364296,
+      -71.0817916
+    ],
+    "description": "Spinnaker was founded in 1982, and is notable for the \"edutainment\" titles they produced for the Apple II series of computers. In 1984, co-founder C. David Seuss founded a subsidiary named Trillium Corporation, soon renamed Telarium due to legal issues. Telarium focused on \"interactive fiction\" adventure games targeting adult players. Another subsidiary, Windham Classics Corporation, developed \"interactive fiction\" titles for children based on classic books. Spinnaker went public on the NASDAQ stock exchange in 1991 and was acquired by The Learning Company. Mattel acquired The Learning Company in 1994, also acquiring the Spinnaker assets.",
+    "links": [
+    ],
+    "logo": "Spinnaker_Software_logo.svg"
   }
 ]
