@@ -781,5 +781,27 @@
     "links": [
     ],
     "logo": "Spinnaker_Software_logo.svg"
+  },
+    {
+    "slug": "ta-associates",
+    "name": "TA Associates",
+    "address": {
+      "street": "200 Clarendon Street, 56th Floor",
+      "city": "Boston",
+      "state": "MA",
+      "zip": "02116"
+    },
+    "location": [
+      42.349252,
+      -71.07519
+    ],
+    "description": "TA Associates is a private equity firm and one of the pioneers of \"venture capital\". THe firm was founded in 1968 with backing from investment backers at the firm of Tucker, Anthony & RL Day . Jacqui Morby, who went on to become a partner at the firm, led a series of strategic investments in microcomputer focused tech companies including Spinnaker and Digital Research, Inc.",
+    "links": [
+      {
+        "title": "TA Associates",
+        "href": "https://www.ta.com"
+      }
+    ],
+    "logo": "TA_Associates.svg"
   }
 ]
