@@ -7,7 +7,7 @@
     "@types/node": "22.13.4",
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",
-    "@vitejs/plugin-react-swc": "^3.8.0",
+    "@vitejs/plugin-react-swc": "^4.3.3",
     "fuse.js": "^6.5.3",
     "leaflet": "1.9.4",
     "mobx-react": "9.2.0",
@@ -16,7 +16,7 @@
     "react-leaflet": "5.0.0",
     "react-router-dom": "7.18.3",
     "typescript": "5.7.3",
-    "vite": "^6.4.2",
+    "vite": "^8.2.2",
     "vite-plugin-svgr": "^4.3.0",
     "vite-tsconfig-paths": "^5.1.4"
   },
